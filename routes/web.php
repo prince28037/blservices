@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/services/pdf-forms', 'BLServices@pdfForms');
+Route::get('/services/mca', 'BLServices@mcaCalculator');
