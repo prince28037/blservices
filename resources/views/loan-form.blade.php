@@ -316,14 +316,20 @@
                     </div>
                 </div>
             </form>
-            <br>
-            <br>
-            <button id="prev" class="btn btn-lg btn-success">Preview PDF</button>
-            <button id="down" class="btn btn-lg btn-success">Generate PDF</button>
         </div>
     </div>
-    <br>
-    <br>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <div class="jumbotron">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button id="prev" class="btn btn-lg btn-info">Preview PDF</button>
+                    <button id="down" class="btn btn-lg btn-success">Generate PDF</button>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
 </div>
 
 <!-- Bootstrap core JavaScript -->

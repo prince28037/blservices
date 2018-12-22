@@ -80,8 +80,8 @@
       <file leaf-file-name="loan-form.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/loan-form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8908382" vertical-offset="4863" max-vertical-offset="9968">
-              <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.8908382" vertical-offset="8783" max-vertical-offset="10136">
+              <caret line="330" column="25" selection-start-line="330" selection-start-column="25" selection-end-line="330" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -608,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/loan-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8908382" vertical-offset="4863" max-vertical-offset="9968">
-          <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.8908382" vertical-offset="8783" max-vertical-offset="10136">
+          <caret line="330" column="25" selection-start-line="330" selection-start-column="25" selection-end-line="330" selection-end-column="25" />
           <folding />
         </state>
       </provider>
