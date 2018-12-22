@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/services/pdf-forms', 'BLServices@pdfForms');
 Route::get('/services/mca', 'BLServices@mcaCalculator');
+Route::post('/services/pdf-forms/download', 'BLServices@downloadPdf');
+Route::post('/services/pdf-forms/preview', 'BLServices@previewPdf');
