@@ -50,7 +50,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="mt-5">Select from the dropdown to create a PDF.</h1>
-            <form id="pdf" method="post">
+            <form id="pdf" method="post" target="_blank">
                 {{ csrf_field() }}
                 <div class="form-group col-lg-4 col-md-4 col-sm-4">
                     <label for="samples" class="font-weight-bold">Select a pdf form</label>
