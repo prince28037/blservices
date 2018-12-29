@@ -12,13 +12,15 @@ class BLservices extends Controller
     }
 
     public function previewPdf(Request $request){
-        //if($request->isMethod('post')){
+        if($request->isMethod('post')){
             $data = [
                 'name' => 'Mahmud Abdur Rahman'
             ];
-            $pdf = PDF::loadView('pdf.format1', $data);
-            return $pdf->stream('invoice.pdf');
-        //}
+            $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
+            return $pdf->setPaper('letter', 'portrait')
+                ->stream('invoice.pdf');
+            //return view('pdf.bcaapplicationdk');
+        }
     }
 
     public function downloadPdf(Request $request){
@@ -26,8 +28,9 @@ class BLservices extends Controller
             $data = [
                 'name' => 'Mahmud Abdur Rahman'
             ];
-            $pdf = PDF::loadView('pdf.invoice', $data);
-            return $pdf->download('invoice.pdf');
+            $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
+            return $pdf->setPaper('a4', 'landscape')
+                ->download('invoice.pdf');
         }
     }
 
