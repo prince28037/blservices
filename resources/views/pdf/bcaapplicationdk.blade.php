@@ -8,8 +8,8 @@
     </style>
 </head>
 <body>
-<img src="{{ base_path() }}/public/pdf/bg1.png" width="725">
+<img src="{{ base_path() }}/public/pdf/bcaa/page1.jpg" width="725">
 <div class="page-break"></div>
-<img src="{{ base_path() }}/public/pdf/bg2.png" width="725">
+<img src="{{ base_path() }}/public/pdf/bcaa/page2.jpg" width="725">
 </body>
 </html>
