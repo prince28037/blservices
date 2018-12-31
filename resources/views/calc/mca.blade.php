@@ -54,7 +54,6 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-4"></div>
         <div class="col-lg-4">
             <div class="card">
                 <div class="card-header text-center">
@@ -63,37 +62,31 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label>Advance Amount</label>
-                        <input class="form-control" type="text" id="ad-amount">
+                        <input class="form-control" type="number" id="ad-amount" value="50000" min="0">
                     </div>
                     <div class="form-group">
                         <label>Factor Rate</label>
-                        <input class="form-control" type="text" id="factor">
+                        <input class="form-control" type="number" id="factor" value="1.43" min="0">
                     </div>
                     <div class="form-group">
-                        <label>Monthly Credit Card Sales</label>
-                        <input class="form-control" type="text" id="mccs">
+                        <label>Days</label>
+                        <input class="form-control" type="text" id="days" value="105" min="1">
                     </div>
                     <div class="form-group">
-                        <label>Credit Card Sales Purchased</label>
-                        <input class="form-control" type="text" id="ccsp">
-                    </div>
-                    <div class="form-group">
-                        <label>Origination Fee</label>
-                        <input class="form-control" type="text" id="of">
+                        <label>Starts from</label>
+                        <input class="form-control" type="date" id="start" min="{{ date('Y-m-d') }}">
                     </div>
                     <div class="form-group">
                         <button class="btn btn-info btn-lg btn-block" id="hishab">Calculate</button>
                     </div>
                 </div>
                 <div class="card-footer text-center">
+                    <div id="calc-details"></div>
                     <p class="small text-info">Powered by <a href="#">Xerotic Inc.</a></p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4"></div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12" id="calc"></div>
+        <div class="col-lg-8" id="calc-table"></div>
     </div>
 </div>
 
@@ -103,8 +96,54 @@
 <script>
     $(document).ready(function(){
         $('#hishab').on('click', function(e){
-            var html = '<h3>Base Calculation</h3>';
-            $('#calc').html(html);
+            var amount = $('#ad-amount').val();
+            var factor = $('#factor').val();
+            var days = $('#days').val();
+            var startDate = $('#start').val();
+            var day = new Date(startDate);
+            var total = parseFloat(Math.round(amount * factor)).toFixed(2);
+            var html = '<div class="jumbotron">' +
+                    '<p><strong>Advance Amount : </strong>'+amount+'</p>' +
+                    '<p><strong>Factor Rate : </strong>'+factor+'</p>' +
+                    '<p><strong>Days : </strong>'+days+'</p>' +
+                    '<p><strong>Start Date : </strong>'+startDate+'</p>' +
+                    '</div>';
+            $('#calc-details').html(html);
+            var tableData = '<table class="table table-responsive col-lg-12">' +
+                    '<thead>' +
+                    '<tr>' +
+                    '<th>#Date</th>' +
+                    '<th>Payment</th>' +
+                    '<th>Balance</th>' +
+                    '</tr>' +
+                    '</thead>' +
+                    '<tbody>'+
+                    '<tr>' +
+                    '<td>---**********---</td>' +
+                    '<td>---**********---</td>' +
+                    '<td>'+total+'</td>' +
+                    '</tr>';
+            for(var i = 1; i <= days; i++){
+                day.setDate(day.getDate() + 1);
+                if(day.getDay() == 2 || day.getDay() == 3){
+                    total = (total < 0) ? 0 : (total - 0);
+                    tableData += '<tr>' +
+                    '<td>'+day.getFullYear()+'-'+(day.getMonth()+1)+'-'+day.getDate()+'</td>' +
+                    '<td>0</td>' +
+                    '<td>'+total+'</td>' +
+                    '</tr>';
+                    i--;
+                }else{
+                    total = (total < 0) ? 0 : (total - parseFloat(Math.round(amount*factor/days)).toFixed(2));
+                    tableData += '<tr>' +
+                    '<td>'+day.getFullYear()+'-'+(day.getMonth()+1)+'-'+day.getDate()+'</td>' +
+                    '<td>'+parseFloat(Math.round(amount*factor/days)).toFixed(2)+'</td>' +
+                    '<td>'+total+'</td>' +
+                    '</tr>';
+                }
+            }
+            tableData += '</tbody></table>';
+            $('#calc-table').html(tableData);
         });
     });
 </script>
