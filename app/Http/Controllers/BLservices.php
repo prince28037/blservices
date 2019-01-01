@@ -407,7 +407,7 @@ class BLservices extends Controller
     public function previewPdf(Request $request){
         if($request->isMethod('post')){
             $filename = 'bl.pdf';
-            $data = null;
+            $data = array();
             if($request->sample == 1){
                 $filename = 'bcaa.pdf';
                 $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
@@ -452,6 +452,12 @@ class BLservices extends Controller
                     'sub3' => $request->sub3,
                 ];
                 $pdf = PDF::loadView('pdf.scaa', $data);
+            }elseif($request->sample == 3){
+                $filename = 'coj.pdf';
+                $pdf = PDF::loadView('pdf.coj', $data);
+            }elseif($request->sample == 4){
+                $filename = 'rpa.pdf';
+                $pdf = PDF::loadView('pdf.rpa', $data);
             }else{
                 abort(404);
             }
