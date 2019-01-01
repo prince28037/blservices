@@ -5,13 +5,21 @@
         .page-break {
             page-break-after: always;
         }
+		
+		.coj-p2 .coj-p3 .coj-p4 {
+            position: relative;
+            font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        }
+		
     </style>
 </head>
 <body>
+
 <div class="coj-p1">
 <img src="{{ base_path() }}/public/pdf/coj/page1.jpg" width="725">
 
 </div>
+
 <div class="page-break"></div>
 <div class="coj-p2">
 <img src="{{ base_path() }}/public/pdf/coj/page2.jpg" width="725">
@@ -34,11 +42,9 @@
 	<p class="owner-county">Test</p>
 	
 	<p class="sum1">Test</p>
-	
-	
-	
     
 </div>
+
 <div class="page-break"></div>
 <div class="coj-p3">
 <img src="{{ base_path() }}/public/pdf/coj/page3.jpg" width="725">
@@ -52,8 +58,8 @@
 	
 	<p class="date4">Test</p>
 	
-	
     </div>
+	
 <div class="page-break"></div>
 <div class="coj-p4">
 <img src="{{ base_path() }}/public/pdf/coj/page4.jpg" width="725">

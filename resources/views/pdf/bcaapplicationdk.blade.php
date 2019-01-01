@@ -14,12 +14,14 @@
     </style>
 </head>
 <body>
+
 <div class="bca1">
 <img src="{{ base_path() }}/public/pdf/bcaa/page1.jpg" width="725">
     <p class="chk1">Test</p>
     <p class="chk2"></p>
 
 </div>
+
 <div class="page-break"></div>
 <div class="bca2">
 <img src="{{ base_path() }}/public/pdf/bcaa/page2.jpg" width="725">
