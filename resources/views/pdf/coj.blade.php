@@ -15,25 +15,25 @@
 <div class="page-break"></div>
 <div class="coj-p2">
 <img src="{{ base_path() }}/public/pdf/coj/page2.jpg" width="725">
-    <p class="county">{{ $county }}</p>
-    <p class="company-name">{{ $company-name }}</p>
-    <p class="index">{{ $index }}</p>
+    <p class="county">Test</p>
+    <p class="company-name">Test</p>
+    <p class="index">Test</p>
    
-	<p class="company-name">{{ $company-name }}</p>
-	<p class="owner-name">{{ $owner-name }}</p>
+	<p class="company-name">Test</p>
+	<p class="owner-name">Test</p>
 	 
-	<p class="state-name">{{ $state-name }}</p> 
-	<p class="county">{{ $county }}</p>
+	<p class="state-name">Test</p>
+	<p class="county">Test</p>
 	
-	<p class="owner-name">{{ $owner-name }}</p>
-	<p class="company-name">{{ $company-name }}</p>
-	<p class="company-addr">{{ $company-addr }}</p>
-	<p class="company-county">{{ $company-county }}</p>
+	<p class="owner-name">Test</p>
+	<p class="company-name">Test</p>
+	<p class="company-addr">Test</p>
+	<p class="company-county">Test</p>
 	
-	<p class="owner-addr">{{ $owner-addr }}</p>
-	<p class="owner-county">{{ $owner-county }}</p>
+	<p class="owner-addr">Test</p>
+	<p class="owner-county">Test</p>
 	
-	<p class="sum1">{{ $sum1 }}</p>
+	<p class="sum1">Test</p>
 	
 	
 	
@@ -43,14 +43,14 @@
 <div class="coj-p3">
 <img src="{{ base_path() }}/public/pdf/coj/page3.jpg" width="725">
 
-	<p class="date1">{{ $date1 }}</p>
-	<p class="date2">{{ $date2 }}</p>
+	<p class="date1">Test</p>
+	<p class="date2">Test</p>
 	
-	<p class="sum1">{{ $sum1 }}</p>
+	<p class="sum1">Test</p>
 	
-	<p class="date3">{{ $date3 }}</p>
+	<p class="date3">Test</p>
 	
-	<p class="date4">{{ $date4 }}</p>
+	<p class="date4">Test</p>
 	
 	
     </div>
@@ -58,15 +58,15 @@
 <div class="coj-p4">
 <img src="{{ base_path() }}/public/pdf/coj/page4.jpg" width="725">
 	
-	<p class="date5">{{ $date5 }}</p>
+	<p class="date5">Test</p>
 
-	<p class="company-name">{{ $company-name }}</p>
+	<p class="company-name">Test</p>
 	
-	<p class="owner-name">{{ $owner-name }}</p>
+	<p class="owner-name">Test</p>
 	
-	<p class="owner-name">{{ $owner-name }}</p>
+	<p class="owner-name">Test</p>
 	
-	<p class="owner-name">{{ $owner-name }}</p>
+	<p class="owner-name">Test</p>
 
     </div>
 </body>

@@ -5,13 +5,19 @@
         .page-break {
             page-break-after: always;
         }
+
+        .bca1 .bca2 {
+            position: relative;
+            font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        }
+
     </style>
 </head>
 <body>
 <div class="bca1">
 <img src="{{ base_path() }}/public/pdf/bcaa/page1.jpg" width="725">
-    <p class="chk1">{{ $chk1 }}</p>
-    <p class="chk2">{{ $chk2 }}</p>
+    <p class="chk1">Test</p>
+    <p class="chk2"></p>
 
 </div>
 <div class="page-break"></div>
@@ -20,72 +26,72 @@
 
     /* Business Cash Advance Application */
 
-    <p class="legal-name">{{ $legal-name }}</p>
-    <p class="dba-name">{{ $dba-name }}</p>
+    <p class="legal-name"></p>
+    <p class="dba-name">Test</p>
 
-    <p class="chk-corp">{{ $chk-corp }}</p>
-    <p class="chk-llc">{{ $chk-llc }}</p>
-    <p class="chk-solep">{{ $chk-solep }}</p>
-    <p class="chk-part">{{ $chk-part }}</p>
-    <p class="tax-id">{{ $tax-id }}</p>
-    <p class="bis-date">{{ $bisdate }}</p>
+    <p class="chk-corp">Test</p>
+    <p class="chk-llc">Test</p>
+    <p class="chk-solep">Test</p>
+    <p class="chk-part">Test</p>
+    <p class="tax-id">Test</p>
+    <p class="bis-date">Test</p>
 
-    <p class="bis-phone">{{ $bis-phone }}</p>
-    <p class="fax">{{ $fax }}</p>
-    <p class="website">{{ $website }}</p>
+    <p class="bis-phone">Test</p>
+    <p class="fax">Test</p>
+    <p class="website">Test</p>
 
-    <p class="phy-addr">{{ $phy-addr }}</p>
-    <p class="city">{{ $city }}</p>
-    <p class="state">{{ $state }}</p>
-    <p class="zip">{{ $zip }}</p>
+    <p class="phy-addr">Test</p>
+    <p class="city">Test</p>
+    <p class="state">Test</p>
+    <p class="zip">Test</p>
 
-    <p class="mail-addr">{{ $phy-addr }}</p>
-    <p class="city2">{{ $city }}</p>
-    <p class="state2">{{ $state }}</p>
-    <p class="zip2">{{ $zip }}</p>
+    <p class="mail-addr">Test</p>
+    <p class="city2">Test</p>
+    <p class="state2">Test</p>
+    <p class="zip2">Test</p>
 
     /* Owner/Principal Information */
 
-    <p class="owner-name">{{ $owner-name }}</p>
-    <p class="chk-rent">{{ $chk-rent }}</p>
-    <p class="chk-own">{{ $chk-own }}</p>
+    <p class="owner-name">Test</p>
+    <p class="chk-rent">Test</p>
+    <p class="chk-own">Test</p>
 
-    <p class="owner-addr">{{ $owner-addr }}</p>
-    <p class="city-owner">{{ $city-owner }}</p>
-    <p class="state-owner">{{ $state-owner }}</p>
-    <p class="zip-owner">{{ $zip-owner }}</p>
+    <p class="owner-addr">Test</p>
+    <p class="city-owner">Test</p>
+    <p class="state-owner">Test</p>
+    <p class="zip-owner">Test</p>
 
-    <p class="owner-email">{{ $owner-email }}</p>
-    <p class="owner-mobile">{{ $owner-mobile }}</p>
+    <p class="owner-email">Test</p>
+    <p class="owner-mobile">Test</p>
 
-    <p class="owner-dob">{{ $owner-dob }}</p>
-    <p class="owner-ssn">{{ $owner-ssn }}</p>
+    <p class="owner-dob">Test</p>
+    <p class="owner-ssn">Test</p>
 
     /* Business Information */
 
-    <p class="industry-type">{{ $industry-type }}</p>
-    <p class="sqft-office">{{ $sqft-office }}</p>
+    <p class="industry-type">Test</p>
+    <p class="sqft-office">Test</p>
 
-    <p class="rented-own">{{ $rented-own }}</p>
-    <p class="rentmor-amount">{{ $rentmor-amount }}</p>
+    <p class="rented-own">Test</p>
+    <p class="rentmor-amount">Test</p>
 
-    <p class="landmor-info">{{ $landmor-info }}</p>
+    <p class="landmor-info">Test</p>
 
     /* Funding & Financial Information */
 
-    <p class="annual-sales">{{ $annual-sales }}</p>
-    <p class="requested-amount">{{ $requested-amount }}</p>
+    <p class="annual-sales">Test</p>
+    <p class="requested-amount">Test</p>
 
-    <p class="monthly-cc">{{ $monthly-cc }}</p>
-    <p class="loan-purpose">{{ $loan-purpose }}</p>
+    <p class="monthly-cc">Test</p>
+    <p class="loan-purpose">Test</p>
 
-    <p class="out-balance">{{ $out-balance }}</p>
+    <p class="out-balance">Test</p>
 
     /* Authorization Form */
 
-    <p class="sign-auth">{{ $sign-auth }}</p>
-    <p class="print-name">{{ $print-name }}</p>
-    <p class="date-auth">{{ $date-auth }}</p>
+    <p class="sign-auth">Test</p>
+    <p class="print-name">Test</p>
+    <p class="date-auth">Test</p>
 
     </div>
 </body>
