@@ -406,19 +406,55 @@ class BLservices extends Controller
 
     public function previewPdf(Request $request){
         if($request->isMethod('post')){
-            $data = [
-                'name' => 'Mahmud Abdur Rahman'
-            ];
+            //dd($request->all());
+            $data = null;
             if($request->sample == 1){
                 $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
             }elseif($request->sample == 2){
+                $data = [
+                    'company' => $request->company,
+                    'to' => $request->to,
+                    'date' => $request->date,
+                    'op11' => $request->op11,
+                    'op12' => $request->op12,
+                    'op13' => $request->op13,
+                    'op21' => $request->op21,
+                    'op22' => $request->op22,
+                    'op23' => $request->op23,
+                    'op31' => $request->op31,
+                    'op32' => $request->op32,
+                    'op33' => $request->op33,
+                    'op41' => $request->op41,
+                    'op42' => $request->op42,
+                    'op43' => $request->op43,
+                    'op51' => $request->op51,
+                    'op52' => $request->op52,
+                    'op53' => $request->op53,
+                    'op61' => $request->op61,
+                    'op62' => $request->op62,
+                    'op63' => $request->op63,
+                    'op71' => $request->op71,
+                    'op72' => $request->op72,
+                    'op73' => $request->op73,
+                    'op81' => $request->op81,
+                    'op82' => $request->op82,
+                    'op83' => $request->op83,
+                    'op91' => $request->op91,
+                    'op92' => $request->op92,
+                    'op93' => $request->op93,
+                    'doc1' => $request->doc1,
+                    'doc2' => $request->doc2,
+                    'doc3' => $request->doc3,
+                    'sub1' => $request->sub1,
+                    'sub2' => $request->sub2,
+                    'sub3' => $request->sub3,
+                ];
                 $pdf = PDF::loadView('pdf.scaa', $data);
             }else{
                 abort(404);
             }
             return $pdf->setPaper('letter', 'portrait')
-                ->stream('invoice.pdf');
-            //return view('pdf.bcaapplicationdk');
+                ->stream('scaa.pdf');
         }
     }
 
