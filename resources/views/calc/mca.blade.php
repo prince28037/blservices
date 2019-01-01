@@ -125,7 +125,7 @@
                     '</tr>';
             for(var i = 1; i <= days; i++){
                 day.setDate(day.getDate() + 1);
-                if(day.getDay() == 2 || day.getDay() == 3){
+                if(day.getDay() == 6 || day.getDay() == 0){
                     total = (total < 0) ? 0 : (total - 0);
                     tableData += '<tr>' +
                     '<td>'+day.getFullYear()+'-'+(day.getMonth()+1)+'-'+day.getDate()+'</td>' +

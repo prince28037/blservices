@@ -405,6 +405,7 @@ class BLservices extends Controller
     }
 
     public function previewPdf(Request $request){
+        ini_set('memory_limit', '256M');
         if($request->isMethod('post')){
             $filename = 'bl.pdf';
             $data = array();
@@ -458,6 +459,9 @@ class BLservices extends Controller
             }elseif($request->sample == 4){
                 $filename = 'rpa.pdf';
                 $pdf = PDF::loadView('pdf.rpa', $data);
+            }elseif($request->sample == 5){
+                $filename = 'agree.pdf';
+                $pdf = PDF::loadView('pdf.agree', $data);
             }else{
                 abort(404);
             }

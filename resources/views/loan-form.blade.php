@@ -58,8 +58,9 @@
                         <option>Select one...</option>
                         <option value="1">Business Cash Advance Application</option>
                         <option value="2">Samaritus Capital Application Approval</option>
-                        <option value="3">Format 3</option>
-                        <option value="4">Format 4</option>
+                        <option value="3">Confession of Judgement</option>
+                        <option value="4">Referral Partner Agreement</option>
+                        <option value="5">Agreement For The Purchase & Sale Of Future Receipts</option>
                     </select>
                 </div>
                 <div id="form-content"></div>
