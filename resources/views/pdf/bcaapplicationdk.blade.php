@@ -239,8 +239,7 @@
 
 <div class="bca1">
 <img src="{{ base_path() }}/public/pdf/bcaa/page1.jpg" width="725">
-    <p class="chk1">Test</p>
-    <p class="chk2">Test</p>
+    <div class="chk1">Test</div>
 </div>
 
 <div class="page-break"></div>
@@ -249,73 +248,73 @@
 
 
 
-    <p class="legal-name">Test</p>
-    <p class="dba-name">Test</p>
+    <div class="legal-name">Test</div>
+    <div class="dba-name">Test</div>
 
-    <p class="chk-corp">T</p>
-    <p class="chk-llc">T</p>
-    <p class="chk-solep">T</p>
-    <p class="chk-part">T</p>
+    <div class="chk-corp">T</div>
+    <div class="chk-llc">T</div>
+    <div class="chk-solep">T</div>
+    <div class="chk-part">T</div>
    
-   <p class="tax-id">Test</p>
-    <p class="bis-date">Test</p>
+   <div class="tax-id">Test</div>
+    <div class="bis-date">Test</div>
 
-    <p class="bis-phone">Test</p>
-    <p class="fax">Test</p>
-    <p class="website">Test</p>
+    <div class="bis-phone">Test</div>
+    <div class="fax">Test</div>
+    <div class="website">Test</div>
 
-    <p class="phy-addr">Test</p>
-    <p class="city">Test</p>
-    <p class="state">Test</p>
-    <p class="zip">Test</p>
+    <div class="phy-addr">Test</div>
+    <div class="city">Test</div>
+    <div class="state">Test</div>
+    <div class="zip">Test</div>
 
-    <p class="mail-addr">Test</p>
-    <p class="city2">Test</p>
-    <p class="state2">Test</p>
-    <p class="zip2">Test</p>
+    <div class="mail-addr">Test</div>
+    <div class="city2">Test</div>
+    <div class="state2">Test</div>
+    <div class="zip2">Test</div>
 
 
 
-    <p class="owner-name">Test</p>
-    <p class="chk-rent">T</p>
-    <p class="chk-own">T</p>
+    <div class="owner-name">Test</div>
+    <div class="chk-rent">T</div>
+    <div class="chk-own">T</div>
 
-    <p class="owner-addr">Test</p>
-    <p class="city-owner">Test</p>
-    <p class="state-owner">Test</p>
-    <p class="zip-owner">Test</p>
+    <div class="owner-addr">Test</div>
+    <div class="city-owner">Test</div>
+    <div class="state-owner">Test</div>
+    <div class="zip-owner">Test</div>
 
-    <p class="owner-email">Test</p>
-    <p class="owner-mobile">Test</p>
+    <div class="owner-email">Test</div>
+    <div class="owner-mobile">Test</div>
 
-    <p class="owner-dob">Test</p>
-    <p class="owner-ssn">Test</p>
-
-  
-
-    <p class="industry-type">Test</p>
-    <p class="sqft-office">Test</p>
-
-    <p class="rented-own">Test</p>
-    <p class="rentmor-amount">Test</p>
-
-    <p class="landmor-info">Test</p>
+    <div class="owner-dob">Test</div>
+    <div class="owner-ssn">Test</div>
 
   
 
-    <p class="annual-sales">Test</p>
-    <p class="requested-amount">Test</p>
+    <div class="industry-type">Test</div>
+    <div class="sqft-office">Test</div>
 
-    <p class="monthly-cc">Test</p>
-    <p class="loan-purpose">Test</p>
+    <div class="rented-own">Test</div>
+    <div class="rentmor-amount">Test</div>
 
-    <p class="out-balance">Test</p>
+    <div class="landmor-info">Test</div>
+
+  
+
+    <div class="annual-sales">Test</div>
+    <div class="requested-amount">Test</div>
+
+    <div class="monthly-cc">Test</div>
+    <div class="loan-purpose">Test</div>
+
+    <div class="out-balance">Test</div>
 
 
 
-    <p class="sign-auth">Test</p>
-    <p class="print-name">Test</p>
-    <p class="date-auth">Test</p>
+    <div class="sign-auth">Test</div>
+    <div class="print-name">Test</div>
+    <div class="date-auth">Test</div>
 
     </div>
 	
