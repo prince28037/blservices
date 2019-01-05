@@ -8,12 +8,35 @@ use Illuminate\Http\Request;
 class BLservices extends Controller
 {
     public function pdfForms(Request $request){
-        $bcaa = '<div class="jumbotron">
+        $bcaa = '<h1 class="mt-2 text-center">BUSINESS CASH ADVANCE APPLICATION</h1>
+                <p><strong>Welcome to Samaritus Capital!</strong><br><br>
+                    Thank you for taking the first step towards securing the loan you need to enrich and enhance your business!  We promise to make your experience quicker and easier than you could possibly imagine.
+                    <br><br><strong>Here\'s what we\'ll need for APPROVAL:</strong>&nbsp;&nbsp;&nbsp;&nbsp;(step one, start immediately)</p>
+                <div class="form-group">
+                    <input class="form-check-input" name="opt" type="radio" id="opt1" value="opt1">
+                    <label class="form-check-label" for="opt1">Completed and signed 1-page application</label>
+                </div>
+                <div class="form-group">
+                    <input class="form-check-input" name="opt" type="radio" id="opt2" value="opt2">
+                    <label class="form-check-label" for="opt2">Last 3-months business bank statements (all pages) </label>
+                </div>
+                <br><br>
+                <p>We look forward to helping you realize your goals in just a few short days!<br><br>
+                    If you have any questions, please contact me for assistance.<br><br>
+
+                    Sincerely,<br><br>
+
+
+                    <address>David Kornfeld<br>
+                    davidk@SamaritusCapital.com<br>
+                    Cell:  516-568-2278<br>
+                    Text Anytime:   516-568-2278</address></p><br><br>
+                    <div class="jumbotron">
                     <h2 class="mt-2 text-center">Business Cash Advance Application</h2>
                     <div class="form-row">
                         <div class="col">
                             <label for="name" class="font-weight-bold">Business Legal Name :</label>
-                            <input class="form-control" id="name" name="name">
+                            <input class="form-control" id="name" name="blname">
                         </div>
                         <div class="col">
                             <label for="dba" class="font-weight-bold">DBA Name :</label>
@@ -188,7 +211,7 @@ class BLservices extends Controller
                     <div class="form-row">
                         <div class="col">
                             <label for="in-type" class="font-weight-bold">Industry Type :</label>
-                            <input class="form-control" id="in-type" name="in-type">
+                            <input class="form-control" id="in-type" name="in_type">
                         </div>
                         <div class="col">
                             <label for="sfo" class="font-weight-bold">Square Feet of Office :</label>
@@ -255,7 +278,7 @@ class BLservices extends Controller
                     </div>
                     <div class="form-group">
                         <label for="print-name" class="font-weight-bold">Print Name :</label>
-                        <input type="text" class="form-control col-sm-4" name="print-name" id="print-name">
+                        <input type="text" class="form-control col-sm-4" name="print_name" id="print-name">
                     </div>
                     <div class="form-group">
                         <label for="date" class="font-weight-bold">Date :</label>
@@ -411,6 +434,47 @@ class BLservices extends Controller
             $data = array();
             if($request->sample == 1){
                 $filename = 'bcaa.pdf';
+                $data = [
+                    'opt' => $request->opt,
+                    'corp' => $request->corp,
+                    'home' => $request->home,
+                    'blname' => $request->blname,
+                    'dba' => $request->dba,
+                    'fti' => $request->fti,
+                    'bsd' => $request->bsd,
+                    'phone' => $request->phone,
+                    'fax' => $request->fax,
+                    'site' => $request->site,
+                    'paddress' => $request->paddress,
+                    'pcity' => $request->pcity,
+                    'pstate' => $request->pstate,
+                    'pzip' => $request->pzip,
+                    'maddress' => $request->maddress,
+                    'mcity' => $request->mcity,
+                    'mstate' => $request->mstate,
+                    'mzip' => $request->mzip,
+                    'name' => $request->name,
+                    'haddress' => $request->haddress,
+                    'hcity' => $request->hcity,
+                    'hstate' => $request->hstate,
+                    'hzip' => $request->hzip,
+                    'email' => $request->email,
+                    'mobile' => $request->mobile,
+                    'dob' => $request->dob,
+                    'ss' => $request->ss,
+                    'in_type' => $request->in_type,
+                    'sfo' => $request->sfo,
+                    'roo' => $request->roo,
+                    'amount' => $request->amount,
+                    'lmcci' => $request->lmcci,
+                    'gas' => $request->gas,
+                    'capital' => $request->capital,
+                    'mccsv' => $request->mccsv,
+                    'purpose' => $request->purpose,
+                    'due' => $request->due,
+                    'print_name' => $request->print_name,
+                    'date' => $request->date,
+                ];
                 $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
             }elseif($request->sample == 2){
                 $filename = 'scaa.pdf';

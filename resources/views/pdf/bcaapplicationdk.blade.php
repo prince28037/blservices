@@ -1,6 +1,9 @@
 <html>
 <head>
-    <title>Test PDF</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>BUSINESS CASH ADVANCE APPLICATION</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Helvetica">
     <style>
         .page-break {
             page-break-after: always;
@@ -8,7 +11,7 @@
 
         .bca1 .bca2 {
             position: relative;
-            font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+            font-family: Calibri, serif;
         }
 		
 		  .chk1 {
@@ -331,8 +334,8 @@
 
 <div class="bca1">
 <img src="{{ base_path() }}/public/pdf/bcaa/page1.jpg" width="725">
-    <div class="chk1">T</div>
-    <div class="chk2">T</div>
+    <div class="chk1">@if(isset($opt) && $opt == 'opt1')&#x2714;@endif</div>
+    <div class="chk2">@if(isset($opt) && $opt == 'opt2')&#x2714;@endif</div>
 	
 </div>
 
@@ -342,73 +345,73 @@
 
 
 
-    <div class="legal-name">Test</div>
-    <div class="dba-name">Test</div>
+    <div class="legal-name">{{ $blname }}</div>
+    <div class="dba-name">{{ $dba }}</div>
 
-    <div class="chk-corp">T</div>
-    <div class="chk-llc">T</div>
-    <div class="chk-solep">T</div>
-    <div class="chk-part">T</div>
+    <div class="chk-corp">@if(isset($corp) && $corp == 'option1')&#x2714;@endif</div>
+    <div class="chk-llc">@if(isset($corp) && $corp == 'option2')&#x2714;@endif</div>
+    <div class="chk-solep">@if(isset($corp) && $corp == 'option3')&#x2714;@endif</div>
+    <div class="chk-part">@if(isset($corp) && $corp == 'option4')&#x2714;@endif</div>
    
-   <div class="tax-id">Test</div>
-    <div class="bis-date">Test</div>
+   <div class="tax-id">{{ $fti }}</div>
+    <div class="bis-date">{{ $bsd }}</div>
 
-    <div class="bis-phone">Test</div>
-    <div class="fax">Test</div>
-    <div class="website">Test</div>
+    <div class="bis-phone">{{ $phone }}</div>
+    <div class="fax">{{ $fax }}</div>
+    <div class="website">{{ $site }}</div>
 
-    <div class="phy-addr">Test</div>
-    <div class="city">Test</div>
-    <div class="state">Test</div>
-    <div class="zip">Test</div>
+    <div class="phy-addr">{{ $paddress }}</div>
+    <div class="city">{{ $pcity }}</div>
+    <div class="state">{{ $pstate }}</div>
+    <div class="zip">{{ $pzip }}</div>
 
-    <div class="mail-addr">Test</div>
-    <div class="city2">Test</div>
-    <div class="state2">Test</div>
-    <div class="zip2">Test</div>
+    <div class="mail-addr">{{ $maddress }}</div>
+    <div class="city2">{{ $mcity }}</div>
+    <div class="state2">{{ $mstate }}</div>
+    <div class="zip2">{{ $mzip }}</div>
 
 
 
-    <div class="owner-name">Test</div>
-    <div class="chk-rent">T</div>
-    <div class="chk-own">T</div>
+    <div class="owner-name">{{ $name }}</div>
+    <div class="chk-rent">@if(isset($home) && $home == 'option1')&#x2714;@endif</div>
+    <div class="chk-own">@if(isset($home) && $home == 'option2')&#x2714;@endif</div>
 
-    <div class="owner-addr">Test</div>
-    <div class="city-owner">Test</div>
-    <div class="state-owner">Test</div>
-    <div class="zip-owner">Test</div>
+    <div class="owner-addr">{{ $haddress }}</div>
+    <div class="city-owner">{{ $hcity }}</div>
+    <div class="state-owner">{{ $hstate }}</div>
+    <div class="zip-owner">{{ $hzip }}</div>
 
-    <div class="owner-email">Test</div>
-    <div class="owner-mobile">Test</div>
+    <div class="owner-email">{{ $email }}</div>
+    <div class="owner-mobile">{{ $mobile }}</div>
 
-    <div class="owner-dob">Test</div>
-    <div class="owner-ssn">Test</div>
-
-  
-
-    <div class="industry-type">Test</div>
-    <div class="sqft-office">Test</div>
-
-    <div class="rented-own">Test</div>
-    <div class="rentmor-amount">Test</div>
-
-    <div class="landmor-info">Test</div>
+    <div class="owner-dob">{{ $dob }}</div>
+    <div class="owner-ssn">{{ $ss }}</div>
 
   
 
-    <div class="annual-sales">Test</div>
-    <div class="requested-amount">Test</div>
+    <div class="industry-type">{{ $in_type }}</div>
+    <div class="sqft-office">{{ $sfo }}</div>
 
-    <div class="monthly-cc">Test</div>
-    <div class="loan-purpose">Test</div>
+    <div class="rented-own">{{ $roo }}</div>
+    <div class="rentmor-amount">{{ $amount }}</div>
 
-    <div class="out-balance">Test</div>
+    <div class="landmor-info">{{ $lmcci }}</div>
+
+  
+
+    <div class="annual-sales">{{ $gas }}</div>
+    <div class="requested-amount">{{ $capital }}</div>
+
+    <div class="monthly-cc">{{ $mccsv }}</div>
+    <div class="loan-purpose">{{ $purpose }}</div>
+
+    <div class="out-balance">{{ $due }}</div>
 
 
 
-    <div class="sign-auth">Test</div>
-    <div class="print-name">Test</div>
-    <div class="date-auth">Test</div>
+    <div class="sign-auth"></div>
+    <div class="print-name">{{ $print_name }}</div>
+    <div class="date-auth">{{ $date }}</div>
 
     </div>
 	
