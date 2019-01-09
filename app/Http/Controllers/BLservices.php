@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Banks;
+use App\Countries;
+use Illuminate\Database\Eloquent\Collection;
+use Maatwebsite\Excel\Facades\Excel as Excel;
 use PDF;
 use Illuminate\Http\Request;
 
@@ -547,5 +551,81 @@ class BLservices extends Controller
 
     public function mcaCalculator(Request $request){
         return view('calc.mca');
+    }
+
+    public function banks(Request $request){
+        $all_banks = new Collection();
+        $reader = Excel::load('public\banks.xlsx')->skip(1)->ignoreEmpty()->get();
+        foreach ($reader->toArray() as $row) {
+            $all_banks->push($row);
+        }
+//        foreach($all_banks as $ab){
+//            dd($ab);
+//        }
+//        dd($all_banks);
+        $countries = Countries::all();
+        $banks = Banks::paginate(100);
+        if($request->isMethod('post')){
+            if($request->action == 'add'){
+                $errors = array();
+                $bank = new Banks();
+                if(!$bank->validate($request->all())){
+                    $bank_e = $bank->errors();
+                    foreach ($bank_e->messages() as $k => $v){
+                        foreach ($v as $e){
+                            $errors[] = $e;
+                        }
+                    }
+                }
+                if(empty($errors)){
+                    $bank->bank_name = $request->bank_name;
+                    $bank->url = $request->url;
+                    $bank->country = $request->country;
+                    if($bank->save()){
+                        return redirect()
+                            ->to('services/banks')
+                            ->with('success', 'The bank was added!');
+                    }else{
+                        return redirect()
+                            ->to('services/banks')
+                            ->with('error', 'Something went wrong! Please try again!');
+                    }
+                }else{
+                    return redirect()
+                        ->to('services/banks')
+                        ->with('errors', $errors);
+                }
+            }
+            if($request->action == 'edit'){
+                $bank = Banks::find($request->bank_id);
+                $bank->bank_name = $request->bank_name;
+                $bank->url = $request->url;
+                $bank->country = $request->country;
+                if($bank->save()){
+                    return redirect()
+                        ->to('services/banks')
+                        ->with('success', 'The bank was updated!');
+                }else{
+                    return redirect()
+                        ->to('services/banks')
+                        ->with('error', 'Something went wrong! Please try again!');
+                }
+            }
+            if($request->action == 'delete'){
+                if(Banks::destroy($request->bank_id)){
+                    return redirect()
+                        ->to('services/banks')
+                        ->with('success', 'The bank was deleted!');
+                }else{
+                    return redirect()
+                        ->to('services/banks')
+                        ->with('error', 'Something went wrong! Please try again!');
+                }
+            }
+        }
+        return view('banks.ui', [
+            'countries' => $countries,
+            'banks' => $all_banks
+        ]);
     }
 }

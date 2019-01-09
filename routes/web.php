@@ -15,7 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/services/pdf-forms', 'BLServices@pdfForms');
-Route::get('/services/mca', 'BLServices@mcaCalculator');
-Route::post('/services/pdf-forms/download', 'BLServices@downloadPdf');
-Route::post('/services/pdf-forms/preview', 'BLServices@previewPdf');
+Route::get('/services/pdf-forms', 'BLservices@pdfForms');
+Route::get('/services/mca', 'BLservices@mcaCalculator');
+Route::post('/services/pdf-forms/download', 'BLservices@downloadPdf');
+Route::post('/services/pdf-forms/preview', 'BLservices@previewPdf');
+Route::get('/services/banks', 'BLservices@banks');
+Route::post('/services/banks', 'BLservices@banks');
