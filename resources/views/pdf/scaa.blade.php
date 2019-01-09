@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Samaritus Capital Application Approval</title>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Optima">
     <style>
@@ -11,17 +11,17 @@
         }
         .company {
             position: absolute;
-            top: 170px;
+            top: 171px;
             left: 150px;
         }
         .to {
             position: absolute;
-            top: 192px;
+            top: 194px;
             left: 150px;
         }
         .date {
             position: absolute;
-            top: 215px;
+            top: 217px;
             left: 150px;
         }
         .op11 {
@@ -161,21 +161,21 @@
         }
         .fund1 {
             position: absolute;
-            top: 807px;
+            top: 809px;
             left: 80px;
             font-size: 10px;
             font-weight: 100;
         }
         .fund2 {
             position: absolute;
-            top: 823px;
+            top: 825px;
             left: 80px;
             font-size: 10px;
             font-weight: 100;
         }
         .fund3 {
             position: absolute;
-            top: 839px;
+            top: 841px;
             left: 80px;
             font-size: 10px;
             font-weight: 100;
