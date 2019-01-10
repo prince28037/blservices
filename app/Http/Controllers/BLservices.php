@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 class BLservices extends Controller
 {
     public function pdfForms(Request $request){
-        $coj = '<h1 class="text-center">Agreement for the Purchase and Sale of Future Receipts</h1>
+        $agree = '<h1 class="text-center">Agreement for the Purchase and Sale of Future Receipts</h1>
                 <div class="form-row">
                     <div class="col">
                         <input type="text" class="form-control" id="legalName" name="legalName" placeholder="Seller’s Legal Name">
@@ -830,7 +830,7 @@ class BLservices extends Controller
         return view('loan-form', [
             'bcaa' => $bcaa,
             'scaa' => $scaa,
-            'coj' => $coj
+            'agree' => $agree
         ]);
     }
 

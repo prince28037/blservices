@@ -89,15 +89,15 @@
     $(document).ready(function(){
         var bcaa = `<?php echo $bcaa; ?>`;
         var scaa = `<?php echo $scaa; ?>`;
-        var coj = `<?php echo $coj; ?>`;
+        var agree = `<?php echo $agree; ?>`;
         $('#samples').on('change', function(e){
             e.preventDefault();
             if($(this).val() == 1){
                 $('#form-content').html(bcaa);
             }else if($(this).val() == 2){
                 $('#form-content').html(scaa);
-            }else if($(this).val() == 3){
-                $('#form-content').html(coj);
+            }else if($(this).val() == 5){
+                $('#form-content').html(agree);
             }else{
                 $('#form-content').html('');
             }
