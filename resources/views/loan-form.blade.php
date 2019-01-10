@@ -64,10 +64,10 @@
                     </select>
                 </div>
                 <div id="form-content"></div>
-                <h1 class="text-center">CONFESSION OF JUDGMENT</h1>
             </form>
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col"></div>
         <div class="col">
@@ -89,12 +89,15 @@
     $(document).ready(function(){
         var bcaa = `<?php echo $bcaa; ?>`;
         var scaa = `<?php echo $scaa; ?>`;
+        var coj = `<?php echo $coj; ?>`;
         $('#samples').on('change', function(e){
             e.preventDefault();
             if($(this).val() == 1){
                 $('#form-content').html(bcaa);
             }else if($(this).val() == 2){
                 $('#form-content').html(scaa);
+            }else if($(this).val() == 3){
+                $('#form-content').html(coj);
             }else{
                 $('#form-content').html('');
             }
