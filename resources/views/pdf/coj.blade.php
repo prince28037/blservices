@@ -11,6 +11,156 @@
             font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
         }
 		
+ 		.county {
+            position: absolute;
+            top: 10.2%;
+            left: 18%;
+        }
+  		.company-name {
+            position: absolute;
+            top: 12.6%;
+            left: 8%;
+        }
+  		.index {
+            position: absolute;
+            top: 13.1%;
+            left: 67.5%;
+        }
+		
+		.company-name2 {
+            position: absolute;
+            top: 23.1%;
+            left: 8.4%;
+        }
+
+        .owner-name {
+            position: absolute;
+            top: 26.2%;
+            left: 8.3%;
+        }
+
+        .state-name {
+            position: absolute;
+            top: 32.1%;
+            left: 16.5%;
+        }
+
+		.county-of {
+            position: absolute;
+            top: 35.4%;
+            left: 18.2%;
+        }
+		.owner-name2 {
+            position: absolute;
+            top: 38.9%;
+            left: 8.5%;
+        }
+
+		.company-name3 {
+            position: absolute;
+            top: 42%;
+            left: 55.5%;
+        }
+
+        .company-addr {
+            position: absolute;
+            top: 43.4%;
+            left: 32.2%;
+        }
+
+         .company-county {
+            position: absolute;
+            top: 48%;
+            left: 19.5%;
+        }
+
+		.owner-addr {
+            position: absolute;
+            top: 54.4%;
+            left: 35.5%;
+        }
+
+        .owner-county {
+            position: absolute;
+            top: 57.4%;
+            left: 20.8%;
+        }
+		
+		.sum1 {
+            position: absolute;
+            top: 88%;
+            left: 32%;
+        }
+
+
+       
+
+        .date1 {
+            position: absolute;
+            top: 8.8%;
+            left: 71%;
+        }
+
+        .date2 {
+            position: absolute;
+            top: 14.9%;
+            left: 62%;
+        }
+         .sum2 {
+            position: absolute;
+            top: 49.1%;
+            left: 38%;
+        }
+         .date3 {
+            position: absolute;
+            top: 58.2%;
+            left: 9%;
+        }
+         .date4 {
+            position: absolute;
+            top: 76.6%;
+            left: 45%;
+        }
+
+
+
+ 		.date5 {
+            position: absolute;
+            top: 8.9%;
+            left: 9%;
+        }
+        .company-name4 {
+            position: absolute;
+            top: 35.5%;
+            left: 37.2%;
+        }
+
+        .title {
+            position: absolute;
+            top: 35.5%;
+            left: 74%;
+        }
+
+		.owner-name3 {
+            position: absolute;
+            top:42.3%;
+            left: 22.3%;
+        }
+
+		.owner-name4 {
+            position: absolute;
+            top: 61.5%;
+            left: 37.5%;
+        }
+        .owner-name5 {
+            position: absolute;
+            top: 66.2%;
+            left: 22.3%;
+        }
+
+
+
+
     </style>
 </head>
 <body>
@@ -21,27 +171,28 @@
 </div>
 
 <div class="page-break"></div>
+
 <div class="coj-p2">
 <img src="{{ base_path() }}/public/pdf/coj/page2.jpg" width="725">
-    <p class="county">Test</p>
-    <p class="company-name">Test</p>
-    <p class="index">Test</p>
+    <div class="county">Test</div>
+    <div class="company-name">Test</div>
+    <div class="index">Test</div>
    
-	<p class="company-name">Test</p>
-	<p class="owner-name">Test</p>
+	<div class="company-name2">Test</div>
+	<div class="owner-name">Test</div>
 	 
-	<p class="state-name">Test</p>
-	<p class="county">Test</p>
+	<div class="state-name">Test</div>
+	<div class="county-of">Test</div>
 	
-	<p class="owner-name">Test</p>
-	<p class="company-name">Test</p>
+	<div class="owner-name2">Test</div>
+	<div class="company-name3">Test</div>
 	<p class="company-addr">Test</p>
-	<p class="company-county">Test</p>
+	<div class="company-county">Test</div>
 	
-	<p class="owner-addr">Test</p>
-	<p class="owner-county">Test</p>
+	<div class="owner-addr">Test</div>
+	<div class="owner-county">Test</div>
 	
-	<p class="sum1">Test</p>
+	<div class="sum1">Test</div>
     
 </div>
 
@@ -49,14 +200,14 @@
 <div class="coj-p3">
 <img src="{{ base_path() }}/public/pdf/coj/page3.jpg" width="725">
 
-	<p class="date1">Test</p>
-	<p class="date2">Test</p>
+	<div class="date1">Test</div>
+	<div class="date2">Test</div>
 	
-	<p class="sum1">Test</p>
+	<div class="sum2">Test</div>
 	
-	<p class="date3">Test</p>
+	<div class="date3">Test</div>
 	
-	<p class="date4">Test</p>
+	<div class="date4">Test</div>
 	
     </div>
 	
@@ -64,15 +215,17 @@
 <div class="coj-p4">
 <img src="{{ base_path() }}/public/pdf/coj/page4.jpg" width="725">
 	
-	<p class="date5">Test</p>
+	<div class="date5">Test</div>
 
-	<p class="company-name">Test</p>
+	<div class="company-name4">Test</div>
+
+	<div class="title">Test</div>
 	
-	<p class="owner-name">Test</p>
+	<div class="owner-name3">Test</div>
 	
-	<p class="owner-name">Test</p>
+	<div class="owner-name4">Test</div>
 	
-	<p class="owner-name">Test</p>
+	<div class="owner-name5">Test</div>
 
     </div>
 </body>

@@ -65,6 +65,97 @@
                 </div>
                 <div id="form-content"></div>
                 <h1 class="text-center">CONFESSION OF JUDGMENT</h1>
+
+                <div>
+                    
+SUPREME COURT OF THE STATE OF NEW YORK COUNTY OF
+---------------------------------------------------------------------X
+Index No.
+
+Plaintiff   AFFIDAVIT OF CONFESSION OF
+JUDGMENT
+
+-against-
+
+ 
+[
+and
+ 
+
+
+]
+Defendants.
+ 
+---------------------------------------------------------------------X
+
+STATE OF [  ] )
+) ss.:
+COUNTY OF [ ] )
+
+[   ], being duly sworn, deposes and says:
+
+1.  I am a principal, owner, and an officer of [    ]
+
+(“Defendant Merchant”), located at [    ],
+
+in the County of [  ] and as such, I have the authority to act on behalf of Defendant Merchant, and have been authorized by Defendant Merchant to execute this Affidavit of  Confession of Judgment.
+2.  I  reside at [  ],
+
+in  the  County of [    ]
+
+3.  I, individually, and on behalf of Defendant Merchant consent to the jurisdiction  of this
+
+Court.
+
+4.  Defendant Merchant  hereby confesses judgment and authorizes entry of judgment    in
+
+favor of Plaintiff against Defendant Merchant in the Federal District Court for the Southern District of New York, Supreme Court of  the  State  of  New York, County  of  Nassau,  Supreme Court  of  the State of  New York, County of Suffolk, Supreme Court of the State of  New York, County  of  New York, Supreme Court of the State of New York, County of Westchester, Supreme Court  of  the  State of  New York, County of  Rockland, Supreme Court of  the State of New York, County of Erie, Supreme Court of the State of  New York, County  of  Orange, Supreme  Court of the State of New York, County of  Bronx,  and/or  Civil  Court  of  the City  of  New York, County  of  New
+York,  in  the  sum of [    ], less  any  payments  timely  made  pursuant  to the
+ 
+Agreement  for  the Purchase and Sale of  Future Receipts (the “Merchant Agreement”) dated      , plus legal fees to Plaintiff calculated at thirty three (33%) percent of the total of the aforesaid sums, costs, expenses and disbursements and interest at the rate of sixteen (16%) percent per annum   from [  ] or the highest amount allowed by law, whichever is greater, in connection with the enforcement of this Confession of Judgment. Such amount shall be set forth in an affidavit to be executed by Plaintiff or an affirmation by Plaintiff’s  attorney, which  shall  be  attached  hereto  at  the  time  of  entry  of  this Confession of Judgment.
+5.  In   addition,  I  hereby  confess  judgment,  individually and   personally,  jointly   and
+
+severally,  and  authorize entry  of  judgment  in favor of  Plaintiff  against  myself  personally in the Federal District Court    for  the  Southern  District   of   New  York,  Supreme  Court  of  the  State of  New York, County  of  Nassau, Supreme    Court of the State of New York, County of Suffolk, Supreme Court of the State of  New  York, County  of  New  York, Supreme Court of  the  State  of  New  York,  County  of  Westchester,  Supreme  Court  of  the  State of  New York, County  of  Rockland, Supreme Court of  the  State of  New York, County  of  Erie,  Supreme  Court of  the State of  New York,   County of Orange, Supreme Court of the State of New York, County of  Bronx,  and/or  Civil  Court  of the City of  New  York, County of  New York, in the  sum of [  ],  less  any  payments   timely made under   the Merchant Agreement, plus legal fees to  Plaintiff  calculated  at  thirty three (33%)  percent  of  the total  of  the aforesaid sums,  costs,  expenses  and  disbursements  and interest  at  the  rate  of  sixteen (16%)  percent  per  annum from
+[   ], or  the  highest  rate  allowed  by  law, whichever  is  greater,  in  connection   with  the enforcement of this Confession of Judgment. Such amount  shall  be  set  forth  in  an  affidavit to be executed by Plaintiff or  an affirmation  by Plaintiff’s  attorney, which  shall  be  attached  here to  at  the  time of entry of  this Confession of Judgment.
+6.  Plaintiff fully performed its duties under the Merchant Agreement.
+7.  This Confession of Judgment is for a debt due to Plaintiff arising from both Defendant Merchant and  I individually, failing to pay to the Plaintiff     Merchant Defendant’s future receipts, which were purchased by
+Plaintiff  pursuant to the  Merchant  Agreement dated [ ], and for  Defendant Merchant and I individually breaching the Merchant Agreement, plus agreed-upon interest, attorneys’ fees, costs and disbursements, as agreed-upon  by  Defendant  Merchant  and  myself  individually  under  the  Merchant  Agreement  dated
+ 
+[   ] of  which supporting documents include  a  Personal  Guarantee and UCC-1 financing statement(s).
+8.  Defendant Merchant and I hereby agree that the execution and delivery of this Affidavit
+
+of Confession of Judgment and any entry of judgment thereon shall be without prejudice to any and all rights of Plaintiff,  which  reserves  all  of  its  rights  and  remedies  against Defendants.
+9.  If for any reason entry of judgment in the above specified amount or execution on the same is outside the jurisdiction of this Court, Defendant Merchant and I hereby consent to the personal jurisdiction, entry of judgment, and execution thereon in any State or Federal Court of the United States of America.
+By:  [      ]
+
+
+Sworn  to  before me this   day of      ,  2019 before  me, the undersigned, personally appeared,       , personally known to me on the basis of satisfactory evidence to be the individual whose name is executed to the within Affidavit of Confession of Judgment and sworn to me that they signed
+
+
+
+NOTARY PUBLIC
+County of:
+Commission Expires:
+
+By:     
+, individually,
+
+Sworn  to  before me this   day of      , 2019, before  me, the undersigned, personally appeared,       , personally known to me on the basis of satisfactory
+evidence to be the individual whose name is executed to the within Affidavit of Confession of Judgment and sworn to me that they signed
+
+
+
+
+
+
+
+NOTARY PUBLIC
+County of:
+Commission Expires:
+
+
+                    
+                </div>
             </form>
         </div>
     </div>
