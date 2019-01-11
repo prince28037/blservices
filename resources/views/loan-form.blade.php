@@ -64,6 +64,7 @@
                     </select>
                 </div>
                 <div id="form-content"></div>
+<<<<<<< HEAD
                 <h1 class="text-center">CONFESSION OF JUDGMENT</h1>
 
                 <div>
@@ -156,9 +157,12 @@ Commission Expires:
 
                     
                 </div>
+=======
+>>>>>>> 65b4c0e62b38ab5b6bb7327c2701c69b052ac1af
             </form>
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col"></div>
         <div class="col">
@@ -180,12 +184,15 @@ Commission Expires:
     $(document).ready(function(){
         var bcaa = `<?php echo $bcaa; ?>`;
         var scaa = `<?php echo $scaa; ?>`;
+        var agree = `<?php echo $agree; ?>`;
         $('#samples').on('change', function(e){
             e.preventDefault();
             if($(this).val() == 1){
                 $('#form-content').html(bcaa);
             }else if($(this).val() == 2){
                 $('#form-content').html(scaa);
+            }else if($(this).val() == 5){
+                $('#form-content').html(agree);
             }else{
                 $('#form-content').html('');
             }
