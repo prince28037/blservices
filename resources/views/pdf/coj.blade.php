@@ -174,25 +174,25 @@
 
 <div class="coj-p2">
 <img src="{{ base_path() }}/public/pdf/coj/page2.jpg" width="725">
-    <div class="county">Test</div>
-    <div class="company-name">Test</div>
-    <div class="index">Test</div>
+    <div class="county">{{ $county }}</div>
+    <div class="company-name">{{ $in_x }}</div>
+    <div class="index">{{ $index_no }}</div>
    
-	<div class="company-name2">Test</div>
-	<div class="owner-name">Test</div>
+	<div class="company-name2">{{ $against1 }}</div>
+	<div class="owner-name">{{ $against2 }}</div>
 	 
-	<div class="state-name">Test</div>
-	<div class="county-of">Test</div>
+	<div class="state-name">{{ $state }}</div>
+	<div class="county-of">{{ $county_of }}</div>
 	
-	<div class="owner-name2">Test</div>
-	<div class="company-name3">Test</div>
-	<p class="company-addr">Test</p>
-	<div class="company-county">Test</div>
+	<div class="owner-name2">{{ $sworn }}</div>
+	<div class="company-name3">{{ $officer }}</div>
+	<p class="company-addr">{{ $location }}</p>
+	<div class="company-county">{{ $county_of_2 }}</div>
 	
-	<div class="owner-addr">Test</div>
-	<div class="owner-county">Test</div>
+	<div class="owner-addr">{{ $reside }}</div>
+	<div class="owner-county">{{ $county_of_3 }}</div>
 	
-	<div class="sum1">Test</div>
+	<div class="sum1">{{ $sum }}</div>
     
 </div>
 
@@ -200,14 +200,14 @@
 <div class="coj-p3">
 <img src="{{ base_path() }}/public/pdf/coj/page3.jpg" width="725">
 
-	<div class="date1">Test</div>
-	<div class="date2">Test</div>
+	<div class="date1">{{ $dated }}</div>
+	<div class="date2">{{ $from }}</div>
 	
-	<div class="sum2">Test</div>
+	<div class="sum2">{{ $sum2 }}</div>
 	
-	<div class="date3">Test</div>
+	<div class="date3">{{ $from2 }}</div>
 	
-	<div class="date4">Test</div>
+	<div class="date4">{{ $date2 }}</div>
 	
     </div>
 	
@@ -215,15 +215,15 @@
 <div class="coj-p4">
 <img src="{{ base_path() }}/public/pdf/coj/page4.jpg" width="725">
 	
-	<div class="date5">Test</div>
+	<div class="date5">{{ $date3 }}</div>
 
-	<div class="company-name4">Test</div>
+	<div class="company-name4">{{ $by }}</div>
 
-	<div class="title">Test</div>
+	<div class="title">{{ $appeared }}</div>
 	
-	<div class="owner-name3">Test</div>
+	<div class="owner-name3">{{ $by3 }}</div>
 	
-	<div class="owner-name4">Test</div>
+	<div class="owner-name4">{{ $appeared2 }}</div>
 	
 	<div class="owner-name5">Test</div>
 

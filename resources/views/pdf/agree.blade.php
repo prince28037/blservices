@@ -522,50 +522,50 @@
 <div class="agree-p1">
 <img src="{{ base_path() }}/public/pdf/agree/page1.jpg" width="725">
 
-	<div class="seller-name">Test</div>
-	<div class="seller-dba">Test</div>
+	<div class="seller-name">{{ $legalName }}</div>
+	<div class="seller-dba">{{ $dba }}</div>
 
-	<div class="chk-corp">T</div>
-	<div class="chk-llc">T</div>
-	<div class="chk-part">T</div>
-	<div class="chk-ltd">T</div>
-	<div class="chk-llp">T</div>
-	<div class="chk-sole">T</div>
-	<div class="chk-other">T</div>
-	<div class="text-other">T</div>
+	<div class="chk-corp">@if(isset($fbe) && $fbe == 'option1')&#x2714;@endif</div>
+	<div class="chk-llc">@if(isset($fbe) && $fbe == 'option2')&#x2714;@endif</div>
+	<div class="chk-part">@if(isset($fbe) && $fbe == 'option3')&#x2714;@endif</div>
+	<div class="chk-ltd">@if(isset($fbe) && $fbe == 'option4')&#x2714;@endif</div>
+	<div class="chk-llp">@if(isset($fbe) && $fbe == 'option5')&#x2714;@endif</div>
+	<div class="chk-sole">@if(isset($fbe) && $fbe == 'option6')&#x2714;@endif</div>
+	<div class="chk-other">@if(isset($fbe) && $fbe == 'option7')&#x2714;@endif</div>
+	<div class="text-other">@if(isset($fbe) && $fbe == 'option7'){{ $other }}@endif</div>
 
-	<div class="str-addr">Test</div>
-	<div class="city1">Test</div>
-	<div class="state1">Test</div>
-	<div class="zip1">Test</div>
-
-
-	<div class="mail-addr">Test</div>
-	<div class="city2">Test</div>
-	<div class="state2">Test</div>
-	<div class="zip2">Test</div>
-
-	<div class="pri-name">Test</div>
-	<div class="title">Test</div>
-	<div class="taxid1">Test</div>
-
-	<div class="pur-price">Test</div>
-	<div class="pur-amount">Test</div>
-	<div class="mon-sales">Test</div>
+	<div class="str-addr">{{ $sAddress }}</div>
+	<div class="city1">{{ $city }}</div>
+	<div class="state1">{{ $state  }}</div>
+	<div class="zip1">{{ $zip }}</div>
 
 
-	<div class="percentage">Test</div>
-	<div class="ori-fee">Test</div>
-	<div class="daily-amount">Test</div>
+	<div class="mail-addr">{{ $mAddress }}</div>
+	<div class="city2">{{ $mcity }}</div>
+	<div class="state2">{{ $mstate }}</div>
+	<div class="zip2">{{ $mzip }}</div>
 
-	<div class="ini-amount">Test</div>
+	<div class="pri-name">{{ $pcn }}</div>
+	<div class="title">{{ $title }}</div>
+	<div class="taxid1">{{ $fti }}</div>
 
-	<div class="eff-date">Test</div>
+	<div class="pur-price">{{ $price }}</div>
+	<div class="pur-amount">{{ $amount }}</div>
+	<div class="mon-sales">{{ $ams }}</div>
 
 
-	<div class="sellerr-name">Test</div>
-	<div class="prii-name">Test</div>
-	<div class="titlee">Test</div>
+	<div class="percentage">{{ $sp }}</div>
+	<div class="ori-fee">{{ $ofee }}</div>
+	<div class="daily-amount">{{ $ida }}</div>
+
+	<div class="ini-amount">{{ $effective }}</div>
+
+	<div class="eff-date">{{ $atb }}</div>
+
+
+	<div class="sellerr-name">{{ $seller }}</div>
+	<div class="prii-name">{{ $printName }}</div>
+	<div class="titlee">{{ $lTitle }}</div>
 
 	<div class="ri1">Testg</div>
 	<div class="ow1">Testg</div>
@@ -644,9 +644,9 @@
 <div class="agree-p9">
 <img src="{{ base_path() }}/public/pdf/agree/page9.jpg" width="725">
 
-	<div class="seller9-name">Test</div>
-	<div class="pri9-name">Test</div>
-	<div class="title9">Test</div>
+	<div class="seller9-name">{{ $seller1 }}</div>
+	<div class="pri9-name">{{ $printed1 }}</div>
+	<div class="title9">{{ $title1 }}</div>
 
 	<div class="ri9">Testg</div>
 	<div class="ow9">Testg</div>
@@ -657,11 +657,11 @@
 <div class="agree-p10">
 <img src="{{ base_path() }}/public/pdf/agree/page10.jpg" width="725">
 
-	<div class="exhi-date">Test</div>
-	<div class="pri10-name">Test</div>
-	<div class="guarantor-name">Test</div>
+	<div class="exhi-date">{{ $as_of1 }}</div>
+	<div class="pri10-name">{{ $by1 }}</div>
+	<div class="guarantor-name">{{ $and1 }}</div>
 
-	<div class="seller10-name">Test</div>
+	<div class="seller10-name">{{ $and3 }}</div>
 
 	<div class="ri10">Testg</div>
 	<div class="ow10">Testg</div>
@@ -681,10 +681,10 @@
 <div class="agree-p12">
 <img src="{{ base_path() }}/public/pdf/agree/page12.jpg" width="725">
 
-	<div class="pri12-name">Test</div>
+	<div class="pri12-name">{{ $guarantor1 }}</div>
 	<div class="guarantor12">Test</div>
 	
-	<div class="guarantor122">Test</div>
+	<div class="guarantor122">{{ $guarantor2 }}</div>
 
 	<div class="ri12">Testg</div>
 	<div class="ow12">Testg</div>
@@ -695,17 +695,17 @@
 <div class="agree-p13">
 <img src="{{ base_path() }}/public/pdf/agree/page13.jpg" width="725">
 
-	<div class="seller13-name">Test</div>
-	<div class="exact-name">Test</div>
-	<div class="bank-name">Test</div>
-	<div class="routing">Test</div>
-	<div class="chk-acc">Test</div>
+	<div class="seller13-name">{{ $seller4 }}</div>
+	<div class="exact-name">{{ $check_account }}</div>
+	<div class="bank-name">{{ $nob }}</div>
+	<div class="routing">{{ $transit1 }}</div>
+	<div class="chk-acc">{{ $check_account_2 }}</div>
 
-	<div class="seller132-name">Test</div>
-	<div class="pri13-name">Test</div>
-	<div class="title13">Test</div>
-	<div class="taxid">Test</div>
-	<div class="date13">Test</div>
+	<div class="seller132-name">{{ $seller5 }}</div>
+	<div class="pri13-name">{{ $print_name1 }}</div>
+	<div class="title13">{{ $title_2 }}</div>
+	<div class="taxid">{{ $taxId3 }}</div>
+	<div class="date13">{{ $date_2 }}</div>
 
 
 	<div class="ri13">Testg</div>
