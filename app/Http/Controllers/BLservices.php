@@ -752,7 +752,427 @@ class BLservices extends Controller
                         <br>7. All costs incurred by Buyer associated with the filing, amendment or termination of any UCC filings.
                         <br>8. All costs of collections, including attorney fees and all costs related to the enforcement of any other remedies available to Buyer if the Seller defaults.
 
-                </div>';
+                </div><br><br><div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        Authorized Company Owners on Exhibit A Sign Below
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <label class="form-inline">
+                            Seller :
+                            <input type="text" class="form-control" name="seller1">
+                            (COMPANY)
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        ________________________________(SIGNATURE)
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <label class="form-inline">
+                            <input type="text" class="form-control" name="printed1">
+                            ,(Printed Name)
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <label class="form-inline">
+                            its
+                            <input type="text" class="form-control" name="title1">
+                            ,(Title)
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        Individual Guarantors on Exhibit A Sign Below:
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">________________________________(SIGNATURE)</div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">________________________________(SIGNATURE)</div>
+                </div>
+                <br>
+                <br>
+                <h4 class="text-center">Exhibit A</h4>
+                <h4 class="text-center">PERSONAL GUARANTY OF PERFORMANCE</h4>
+                <div class="form-row">
+                    <label class="form-inline">
+                        This Personal Guaranty of Performance (this “Guaranty”) is executed as of
+                        <input type="text" class="form-control" name="as_of1">
+                        2019
+
+                        ,
+                        by <input type="text" class="form-control" name="by1"> and
+                        <input type="text" class="form-control" name="and1">(collectively
+                        the “Guarantor”), for the benefit of
+                        Samaritus Capital Inc., 4250 Veterans Memorial Highway Suite 303 East Tower, Holbrook, New York 11741
+                        (“Buyer”).
+                        Capitalized terms used herein, but not defined, shall have the meanings assigned to them in the
+                        Purchase Agreement (as hereinafter
+                        defined).
+                    </label>
+                </div>
+                <br>
+                <br>
+                <h4 class="text-center">RECITALS</h4>
+                <div class="form-row">
+                    A.
+
+                    Pursuant to that Agreement for the Purchase and Sale of Future Receipts (the “Purchase Agreement”), dated of even date herewith, between Buyer and
+                    <input type="text" class="form-control" name="and3">
+                    (“Seller”),
+                    Buyer
+                    has purchased
+                    Future Receipts of Seller.<br>
+                    B.
+
+                    Buyer
+
+                    is
+
+                    not
+
+                    willing
+
+                    to
+
+                    enter
+
+                    into
+
+                    the
+
+                    Purchase
+
+                    Agreement
+
+                    unless
+
+                    Guarantor
+
+                    irrevocably,
+
+                    absolutely
+
+                    and
+
+                    unconditionally
+
+                    guarantees prompt and complete performance to Buyer of all of the obligations of Seller; and
+                    <br>C.
+                    Guarantor will directly benefit from Buyer and Seller entering into the Purchase Agreement.
+                </div>
+                <br>
+                <br>
+                <h4 class="text-center">AGREEMENT</h4>
+                <div class="form-row">
+
+                    As an inducement to Buyer to purchase the Future Receipts identified in the Purchase Agreement, and for other good and valuable
+                    consideration, the receipt and legal sufficiency of which are hereby acknowledged, Guarantor does hereby agree as follows:
+                    <br><br>1.
+
+                    Defined Terms:
+
+                    All capitalized terms used and not otherwise defined herein shall have the meanings assigned to such terms in the
+                    Purchase Agreement.
+                    <br><br>2.
+
+                    Guaranty of Obligations:
+
+                    Guarantor hereby irrevocably, absolutely and unconditionally guarantees to Buyer prompt and complete performance of all of Seller’s obligations under the Purchase Agreement.
+                    <br><br>3.
+
+                    Guarantor’s Other
+
+                    Agreements:
+
+                    Guarantor will not dispose, convey, sell or otherwise transfer, or cause Seller to dispose, convey,
+                    sell or otherwise transfer, any material business assets of Seller without the prior written consent of Buyer, which may be withheld
+                    for
+                    any
+                    reason.
+                    Guarantor
+                    hereby
+                    agrees
+                    to
+                    pay
+                    all
+                    costs
+                    and
+                    attorney’s
+                    fees
+                    incurred
+                    by
+                    Buyer
+                    in
+                    connection
+                    with
+                    any
+                    actions commenced by Buyer to enforce its rights or incurred in any action to defend its performance under the Purchase Agreement and
+                    this
+                    Guaranty.  This Guaranty is binding upon Guarantor, and Guarantor’s heirs, legal representatives, successors and assigns. If there is more than one Guarantor, the obligations of the Guarantors hereunder shall be joint and several.  The obligation of Guarantor
+                    shall
+                    be unconditional and absolute, regardless of the unenforceability of any provision of any agreement between Seller and Buyer,
+                    or the
+                    existence of any defense, setoff or counterclaim which Seller may assert. Buyer is hereby authorized, without notice or demand and without
+                    affecting
+                    the
+                    liability
+                    of
+                    Guarantor
+                    hereunder,
+                    to
+                    at
+                    any
+                    time
+                    renew
+                    or
+                    extend
+                    Seller’s
+                    obligations
+                    under
+                    the
+                    Purchase
+                    Agreement or otherwise modify, amend or change the terms of the Purchase Agreement.  Guarantor is hereby notified that
+                    a negative
+                    credit report reflecting on his/her credit record may be submitted to a credit reporting agency if the terms of this Guaranty
+                    are not
+                    honored by the Guarantor.
+                    Guarantor
+                    expressly consents to conduct business by electronic means.
+                    <br><br>4.
+
+                    Waiver; Remedies:
+
+                    No failure on the part of Buyer to exercise, and no delay in exercising, any right under this Guaranty shall
+                    operate as a waiver, nor shall any single or partial exercise of any right under this Guaranty preclude any other or further
+                    exercise of
+                    any other right.  The remedies provided in this Guaranty are cumulative and not exclusive of any remedies provided by law or equity.
+                    In the event that
+                    Seller fails to perform any obligation under the Purchase Agreement, Buyer may enforce its rights under this Guaranty
+                    without first seeking to obtain either performance or payment for such default from Seller or any other guarantor.
+                    <br><br>5.
+
+                    Acknowledgment of Purchase:
+
+                    Guarantor acknowledges and agrees that the Purchase Price paid by Buyer to Seller in exchange
+
+                    for
+
+                    the
+
+                    Purchased
+
+                    Amount
+
+                    is
+
+                    a
+
+                    purchase
+
+                    of
+
+                    the
+
+                    Purchased
+
+                    Amount
+
+                    and
+
+                    is
+
+                    not
+
+                    intended
+
+                    to
+
+                    be
+
+                    treated
+
+                    as
+
+                    a
+
+                    loan
+
+                    or
+
+                    financial
+
+                    accommodation from Buyer to Seller.  Guarantor specifically acknowledges Buyer is not a lender, bank or credit card processor, and that Buyer has not offered any loans to Seller, and Guarantor waives any claims or defenses of usury in any action arising out of this Guaranty. Guarantor acknowledges the Purchase Price paid to Seller is good and valuable consideration for the sale of the Purchased Amount of Future Receipts.
+                    <br><br>6. Governing Law and Jurisdiction:  This Guaranty shall be binding upon and inure to the benefit of Buyer its respective successors and assigns. This Guaranty shall be governed by and construed in accordance with the laws of the state of New York, without regards to any applicable principals of conflicts of law. Guarantor understands and agrees that (i) Buyer is located in New York, (ii) Buyer makes all decisions from Buyer’s office in New York, and (iii) the Guaranty is made in New York (that is, no binding contract will be formed until Buyer receives and accepts Guarantor’s signed Agreement in New York). Except as provided in Section 9 of this Guaranty, Guarantor submits to the exclusive jurisdiction and venue of the state or federal courts having jurisdiction over any court sitting in New York of any claims or actions arising, directly or indirectly, out of or related to this Guaranty.  The parties stipulate that the venue referenced in this Agreement are convenient and further hereby waive any claim against or objection to the jurisdiction for such venue. The parties further agree that the mailing by certified or registered mail, return receipt requested, of any process required by any such court will constitute valid and lawful service of process against them, without the necessity for service by any other means provided by statute or rule of court, but without invalidating service performed in accordance with such other provisions.
+                    <br><br>7. JURY WAIVER:  THE PARTIES WAIVE THE RIGHT TO A TRIAL BY JURY IN ANY COURT IN ANY SUIT, ACTION OR PROCEEDING ON ANY MATTER ARISING IN CONNECTION WITH OR IN ANY WAY RELATED TO THE TRANSACTIONS OF WHICH THIS AGREEMENT IS A PART OR ITS ENFORCEMENT, EXCEPT WHERE SUCH WAIVER IS PROHIBITED BY LAW OR DEEMED BY A COURT OF LAW TO BE AGAINST PUBLIC POLICY.  THE PARTIES ACKNOWLEDGE THAT EACH MAKES THIS WAIVER KNOWINGLY, WILLINGLY AND VOLUNTARILY AND WITHOUT DURESS, AND ONLY AFTER EXTENSIVE CONSIDERATION OF THE RAMIFICATIONS OF THIS WAIVER WITH THEIR ATTORNEYS.
+                    <br><br>8. CLASS ACTION WAIVER:  BUYER, SELLER, AND EACH GUARANTOR ACKNOWLEDGE AND AGREE THAT THE AMOUNT AT ISSUE IN THIS TRANSACTION AND ANY DISPUTES THAT ARISE BETWEEN THEM ARE LARGE ENOUGH TO JUSTIFY DISPUTE RESOLUTION ON AN INDIVIDUAL BASIS.  EACH PARTY HERETO WAIVES ANY RIGHT TO ASSERT ANY CLAIMS AGAINST THE OTHER PARTY AS A REPRESENTATIVE OR MEMBER IN ANY CLASS OR REPRESENTATIVE ACTION, EXCEPT WHERE SUCH WAIVER IS PROHIBITED BY LAW OR DEEMED BY A COURT OF LAW TO BE AGAINST PUBLIC POLICY.  TO THE EXTENT EITHER PARTY IS PERMITTED BY LAW OR COURT OF LAW TO PROCEED WITH A CLASS OR REPRESENTATIVE ACTION AGAINST THE OTHER, THE PARTIES AGREE THAT:  (I) THE PREVAILING PARTY SHALL NOT BE ENTITLED TO RECOVER ATTORNEYS’ FEES OR COSTS ASSOCIATED WITH PURSUING THE CLASS OR REPRESENTATIVE ACTION (NOT WITHSTANDING ANY OTHER PROVISION IN THIS AGREEMENT); AND (II) THE PARTY WHO INITIATES OR PARTICIPATES AS A MEMBER OF THE CLASS WILL NOT SUBMIT A CLAIM OR OTHERWISE PARTICIPATE IN ANY RECOVERY SECURED THROUGH THE CLASS OR REPRESENTATIVE ACTION.
+                    <br><br>9. ARBITRATION:  IF BUYER, SELLER OR ANY GUARANTOR REQUESTS, THE OTHER PARTIES AGREE TO ARBITRATE ALL DISPUTES AND CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT. IF BUYER, SELLER OR ANY GUARANTOR SEEKS TO HAVE A DISPUTE SETTLED BY ARBITRATION, THAT PARTY MUST FIRST SEND TO THE OTHER PARTY, BY CERTIFIED MAIL, A WRITTEN NOTICE OF INTENT TO ARBITRATE. IF BUYER, SELLER OR ANY GUARANTOR DO NOT REACH AN AGREEMENT TO RESOLVE THE CLAIM WITHIN 30 DAYS AFTER THE NOTICE IS RECEIVED, BUYER, SELLER OR ANY GUARANTOR MAY COMMENCE AN ARBITRATION PROCEEDING WITH THE AMERICAN ARBITRATION ASSOCIATION (“AAA”) OR NATIONAL ARBITRATION FORUM (“NAF”). BUYER WILL PROMPTLY REIMBURSE SELLER OR THE GUARANTOR ANY ARBITRATION FILING FEE, HOWEVER, IN THE EVENT THAT BOTH SELLER AND THE GUARANTOR MUST PAY FILING FEES, BUYER WILL ONLY REIMBURSE SELLER’S ARBITRATION FILING FEE AND, EXCEPT AS PROVIDED IN THE NEXT SENTENCE, BUYER WILL PAY ALL ADMINISTRATION AND ARBITRATOR FEES. IF THE ARBITRATOR FINDS THAT EITHER THE SUBSTANCE OF THE CLAIM RAISED BY SELLER OR THE GUARANTOR OR THE RELIEF SOUGHT BY SELLER OR THE GUARANTOR IS IMPROPER OR NOT WARRANTED, AS MEASURED BY THE STANDARDS SET FORTH IN FEDERAL RULE OF PROCEDURE 11(B), THEN BUYER WILL PAY THESE FEES ONLY IF REQUIRED BY THE AAA OR NAF RULES. SELLER AND THE GUARANTOR AGREE THAT, BY ENTERING INTO THIS AGREEMENT, THEY ARE WAIVING THE RIGHT TO TRIAL BY JURY. BUYER, SELLER OR ANY GUARANTOR MAY BRING CLAIMS AGAINST ANY OTHER PARTY ONLY IN THEIR INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. FURTHER, BUYER, SELLER AND ANY GUARANTOR AGREE THAT THE ARBITRATOR MAY NOT CONSOLIDATE PROCEEDINGS FOR MORE THAN ONE PERSON’S CLAIMS, AND MAY NOT OTHERWISE PRESIDE OVER ANY FORM OF A REPRESENTATIVE OR CLASS PROCEEDING, AND THAT IF THIS SPECIFIC PROVISION IS FOUND UNENFORCEABLE, THEN THE ENTIRETY OF THIS ARBITRATION CLAUSE SHALL BE NULL AND VOID.
+                    <br><br>10. RIGHT TO OPT OUT OF ARBITRATION:  SELLER AND GUARANTOR(S) MAY OPT OUT OF THIS CLAUSE. TO OPT OUT OF THIS ARBITRATION CLAUSE, SELLER AND EACH GUARANTOR MUST SEND BUYER A NOTICE THAT THE SELLER AND EACH GUARANTOR DOES NOT WANT THIS CLAUSE TO APPLY TO THIS AGREEMENT. FOR ANY OPT OUT TO BE EFFECTIVE, SELLER AND EACH GUARANTOR MUST SEND AN OPT OUT NOTICE TO THE FOLLOWING ADDRESS BY REGISTERED MAIL, WITHIN 14 DAYS AFTER THE DATE OF THIS AGREEMENT: BUYER – ARBITRATION OPT OUT, SAMARITUS CAPITAL INC., 4250 VETERANS MEMORIAL HIGHWAY SUITE 303 EAST TOWER HOLBROOK, NY 11741.
+                    <br><br>11. CONFESSION OF JUDGMENT: IMPORTANT NOTICE – THIS INSTRUMENT CONTAINS A CONFESSION OF JUDGMENT PROVISION WHICH CONSTITUTES A WAIVER OF IMPORTANT RIGHTS YOU MAY HAVE AS THE SELLER AND GUARANTOR(S) AND ALLOWS THE BUYER TO OBTAIN A JUDGMENT AGAINST YOU WITHOUT ANY FURTHER NOTICE. To secure the obligations of Seller covered under Section 13, Representations, Warranties and Covenants of Seller under the Purchase Agreement and the guarantee of Guarantor(s) under this Guarantee of the prompt and complete performance to Buyer of all the obligations of Seller, Seller and Guarantor(s) hereby execute a Confession of Judgment, attached as Exhibit B to the Purchase Agreement. In case any “Event of Default” shall occur, as defined in section 15 of the Purchase Agreement, or Seller breaches any provision of the Purchase Agreement, with includes without limitation, Seller not entering into any merchant cash advance or any agreement that relates to or involves its Future Receipts with any party other than Buyer for the duration of this Agreement without the expressed written consent of Buyer, Seller and Guarantor(s) jointly and severally irrevocably authorize any attorney of any court of record to appear for any one or more of them in such court and enter the Confession of Judgment without process or notice in favor of Buyer for such amount of the Purchased Amount as may then appear unpaid and other applicable fees and attorneys\' fees, to release all errors which may intervene in any such proceedings, and to consent to immediate execution upon such judgment, hereby ratifying every act of such attorney hereunder.
+                    <br><br>12. Severability:  If for any reason any court of competent jurisdiction finds any provisions of this Guaranty to be void or voidable, the parties agree that the court may reform such provision(s) to render the provision(s) enforceable ensuring that the restrictions and prohibitions contained in this Guaranty shall be effective to the fullest extent allowed under applicable law.
+                    <br><br>13. Opportunity for Attorney Review: The Guarantor represents that it has carefully read this Guaranty and has, or had a reasonable opportunity to, consult with its attorney.  Guarantor understands the contents of this Guaranty and signs this Guaranty as its free act and deed.
+                    <br><br>14. Counterparts and Facsimile Signatures:  This Guaranty may be signed in one or more counterparts, each of which shall constitute an original and all of which when taken together shall constitute one and the same agreement.  Facsimile or scanned documents shall have the same legal force and effect as an original and shall be treated as an original document for evidentiary purposes.
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        For Individual Guarantors --
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <label class="form-inline">
+            Guarantor
+                            <input type="text" class="form-control" name="guarantor1">
+                (Print Name)
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+            SIGNATURE :_________________________________________
+            </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        For Individual Guarantors --
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <label class="form-inline">
+            Guarantor
+                            <input type="text" class="form-control" name="guarantor2">
+                (Print Name)
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col"></div>
+                    <div class="col">
+            SIGNATURE :_________________________________________
+            </div>
+                </div>
+                <br>
+                <br>
+                <h4 class="text-center">AUTHORIZATION AGREEMENT</h4>
+                <h4 class="text-center">FOR AUTOMATED CLEARING HOUSE TRANSACTIONS</h4>
+                <br>
+                <div class="form-row">
+                    <input type="text" class="form-control" name="seller4">
+                (“Seller”) hereby authorizes Samaritus Capital Inc. (“Buyer”) to present automated clearing house (ACH) debits to the following checking account in the amount of fees and other payments due to Buyer from Seller under the terms of that Agreement for the Purchase and Sale of Future Receipts (the “Agreement”) entered into between Seller and Buyer, as it may be amended, supplemented or replaced from time to time.  Seller also authorizes Buyer to initiate additional entries (debits and credits) to correct any erroneous transfers.  In addition, if an Event of Default (as defined in the Agreement) occurs, Seller authorizes Buyer to debit any and all accounts controlled by Seller or controlled by any entity with the same Federal Tax Identification Number as Seller up to the total amount, including but not limited to, all fees and charges, due to Buyer from Seller under the terms of the Agreement.
+                    <br><br>Seller agrees to be bound by the Rules and Operating Guidelines of NACHA and represents and warrants that the designated account is established and used primarily for commercial/business purposes, and not for consumer, family or household purposes.  Seller authorizes Buyer to contact Seller’s financial institution to obtain available funds information and/or to verify any information Seller has provided about the designated checking account and to correct any missing, erroneous or out-of-date information.  Seller understands and agrees that any revocation or attempted revocation of this Authorization will constitute an event of default under the Agreement for the Purchase and Sale of Future Receipts.  In the event that Seller closes the designated checking account, or the designated checking account has insufficient funds for any ACH transaction under this Authorization, Seller authorizes Buyer to contact Seller’s financial institution and obtain information (including account number, routing number and available balance) concerning any other deposit account(s) maintained by Seller with Seller’s financial institution, and to initiate ACH transactions under this Authorization to such additional account(s).  To the extent necessary, Seller grants Buyer a limited Power of Attorney to take action in Seller’s name to facilitate this authorization.
+                </div>
+                <br>
+                <br>
+                <div class="form-row">
+                    <div class="col-sm-4">Transfer Funds To/From: </div>
+                    <div class="col">
+                        <div class="form-row">
+                            <label class="form-inline">
+            Exact Name of Checking Account
+            <input type="text" class="form-control" name="check_account">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+            Name of Bank
+            <input type="text" class="form-control" name="nob">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+            ABA Transit/Routing #
+            <input type="text" class="form-control" name="transit1">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+            Checking Account #
+            <input type="text" class="form-control" name="check_account_2">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="form-row">
+                    <div class="col-sm-4">Seller Information: </div>
+                    <div class="col">
+                        <div class="form-row">
+                            <label class="form-inline">
+            Seller\'s Name (Company)
+                                <input type="text" class="form-control" name="seller5">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            Signature : _____________________________
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+                                Print Name
+                                <input type="text" class="form-control" name="print_name1">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+                                Title
+                                <input type="text" class="form-control" name="title_2">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+                                Seller\'s Tax ID
+            <input type="text" class="form-control" name="taxId3">
+                            </label>
+                        </div>
+                        <div class="form-row">
+                            <label class="form-inline">
+            Date
+                                <input type="text" class="form-control" name="date_2">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <h4 class="text-center">[Attached Voided Check Here Or Email a Copy]</h4>';
         $bcaa = '<h1 class="mt-2 text-center">BUSINESS CASH ADVANCE APPLICATION</h1>
                 <p><strong>Welcome to Samaritus Capital!</strong><br><br>
                     Thank you for taking the first step towards securing the loan you need to enrich and enhance your business!  We promise to make your experience quicker and easier than you could possibly imagine.
@@ -1265,7 +1685,6 @@ class BLservices extends Controller
                 ];
                 $pdf = PDF::loadView('pdf.scaa', $data);
             }elseif($request->sample == 3){
-                //dd($request->all());
                 $filename = 'coj.pdf';
                 $data = [
                     'county' => $request->county,
@@ -1299,6 +1718,54 @@ class BLservices extends Controller
                 $pdf = PDF::loadView('pdf.rpa', $data);
             }elseif($request->sample == 5){
                 $filename = 'agree.pdf';
+                $data = [
+                    'legalName' => $request->legalName,
+                    'dba' => $request->dba,
+                    'fbe' => $request->fbe,
+                    'other' => $request->other,
+                    'op11' => $request->op11,
+                    'sAddress' => $request->sAddress,
+                    'city' => $request->city,
+                    'state' => $request->state,
+                    'zip' => $request->zip,
+                    'mAddress' => $request->mAddress,
+                    'mcity' => $request->mcity,
+                    'mstate' => $request->mstate,
+                    'mzip' => $request->mzip,
+                    'title' => $request->title,
+                    'fti' => $request->fti,
+                    'price' => $request->price,
+                    'amount' => $request->amount,
+                    'ams' => $request->ams,
+                    'sp' => $request->sp,
+                    'ofee' => $request->ofee,
+                    'ida' => $request->ida,
+                    'effective' => $request->effective,
+                    'seller' => $request->seller,
+                    'atb' => $request->atb,
+                    'printName' => $request->printName,
+                    'lTitle' => $request->lTitle,
+                    'seller1' => $request->seller1,
+                    'printed1' => $request->printed1,
+                    'title1' => $request->title1,
+                    'as_of1' => $request->as_of1,
+                    'by1' => $request->by1,
+                    'and1' => $request->and1,
+                    'and3' => $request->and3,
+                    'guarantor1' => $request->guarantor1,
+                    'guarantor2' => $request->guarantor2,
+                    'seller4' => $request->seller4,
+                    'check_account' => $request->check_account,
+                    'nob' => $request->nob,
+                    'transit1' => $request->transit1,
+                    'check_account_2' => $request->check_account_2,
+                    'seller5' => $request->seller5,
+                    'print_name1' => $request->print_name1,
+                    'title_2' => $request->title_2,
+                    'taxId3' => $request->taxId3,
+                    'date_2' => $request->date_2,
+                    'pcn' => $request->pcn,
+                ];
                 $pdf = PDF::loadView('pdf.agree', $data);
             }else{
                 abort(404);
