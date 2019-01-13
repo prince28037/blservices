@@ -12,6 +12,345 @@ use Illuminate\Http\Request;
 class BLservices extends Controller
 {
     public function pdfForms(Request $request){
+        $coj = '<h1 class="text-center">CONFESSION OF JUDGMENT</h1>
+
+                <div>
+                    <div class="form-row">
+                        SUPREME COURT OF THE STATE OF NEW YORK
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2">COUNTY OF </div>
+                        <div class="col-sm-4"><input type="text" class="form-control" name="county"></div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        ---------------------------------------------------------------------X
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="in_x">
+                        </div>
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col-sm-2 col-sm-offset-2">
+                                    <label class="pull-right">Index No</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" name="index_no">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col"></div>
+                        <div class="col">Plaintiff</div>
+                        <div class="col">AFFIDAVIT OF CONFESSION OF JUDGMENT</div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col"></div>
+                        <div class="col">-against-</div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="against1">
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col text-center">and</div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="against2">
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col"></div>
+                        <div class="col">Defendants.</div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        ---------------------------------------------------------------------X
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2">
+                            STATE OF [
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" name="state" class="form-control">
+                        </div>
+                        <div class="col">])</div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col"></div>
+                        <div class="col">) ss.:</div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-2">
+                            COUNTY OF [
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="text" name="county_of" class="form-control">
+                        </div>
+                        <div class="col">])</div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col">
+                            <input class="form-control" name="sworn" type="text">
+                        </div>
+                        <div class="col">
+                            , being duly sworn, deposes and says:
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-4">
+                            1.  I am a principal, owner, and an officer of
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="text" name="officer" class="form-control">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-3">(“Defendant Merchant”), located at</div>
+                        <div class="col-sm-5">
+                            <input type="text" name="location" class="form-control">
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2">in the County of</div>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="county_of_2">
+                        </div>
+                        <div class="col-sm-8">
+                            and as such, I have the authority to act on behalf of Defendant Merchant, and have been authorized by Defendant Merchant to execute this Affidavit of  Confession of Judgment.
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-2">
+                            2.  I  reside at
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="reside">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2">in  the  County of</div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" name="county_of_3">
+                        </div>
+                        <div class="col">.</div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            3.  I, individually, and on behalf of Defendant Merchant consent to the jurisdiction  of this
+
+                            Court.
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            4.  Defendant Merchant  hereby confesses judgment and authorizes entry of judgment    in
+
+                            favor of Plaintiff against Defendant
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        Merchant in the Federal District Court for the Southern District of New York, Supreme Court of  the  State  of  New York, County  of  Nassau,  Supreme Court  of  the State of  New York, County of Suffolk, Supreme Court of the State of  New York, County  of  New York, Supreme Court of the State of New York, County of Westchester, Supreme Court  of  the  State of  New York, County of  Rockland, Supreme Court of  the State of New York, County of Erie, Supreme Court of the State of  New York, County  of  Orange, Supreme  Court of the State of New York, County of  Bronx,  and/or  Civil  Court  of  the City  of  New York, County  of  New
+                        York,  in
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-2">the  sum of</div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" name="sum">
+                        </div>
+                        <div class="col">
+                            , less  any  payments  timely  made  pursuant  to the
+
+                            Agreement  for  the Purchase
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            and Sale of  Future Receipts (the “Merchant Agreement”) dated
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="dated">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        , plus legal fees to Plaintiff calculated at thirty three (33%) percent of the total of the aforesaid sums, costs, expenses and disbursements and interest at the rate of sixteen (16%) percent per annum   from
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" name="from">
+                        </div>
+                        <div class="col">
+                            or the highest amount allowed by law, whichever is greater, in connection with the enforcement of this
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        Confession of Judgment. Such amount shall be set forth in an affidavit to be executed by Plaintiff or an affirmation by Plaintiff’s  attorney, which  shall  be  attached  hereto  at  the  time  of  entry  of  this Confession of Judgment.
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            5.  In   addition,  I  hereby  confess  judgment,  individually and   personally,  jointly   and
+
+                            severally,  and  authorize entry  of  judgment  in
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        favor of  Plaintiff  against  myself  personally in the Federal District Court    for  the  Southern  District   of   New  York,  Supreme  Court  of  the  State of  New York, County  of  Nassau, Supreme    Court of the State of New York, County of Suffolk, Supreme Court of the State of  New  York, County  of  New  York, Supreme Court of  the  State  of  New  York,  County  of  Westchester,  Supreme  Court  of  the  State of  New York, County  of  Rockland, Supreme Court of  the  State of  New York, County  of  Erie,  Supreme  Court of  the State of  New York,   County of Orange, Supreme Court of the State of New York, County of  Bronx,  and/or  Civil  Court  of the City of
+                    </div>
+                    <div class="form-row">
+                        <div class="col">New  York, County of  New York, in the  sum of</div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="sum2">
+                        </div>
+                        <div class="col">
+                            ,  less  any  payments   timely made under   the
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        Merchant Agreement, plus legal fees to  Plaintiff  calculated  at  thirty three (33%)  percent  of  the total  of  the aforesaid sums,  costs,  expenses  and  disbursements
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-5">
+                            and interest  at  the  rate  of  sixteen (16%)  percent  per  annum from
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="from2">
+                        </div>
+                        <div class="col">
+                            , or  the  highest  rate  allowed  by  law, whichever  is  greater,
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        in  connection   with  the enforcement of this Confession of Judgment. Such amount  shall  be  set  forth  in  an  affidavit to be executed by Plaintiff or  an affirmation  by Plaintiff’s  attorney, which  shall  be  attached  here to  at  the  time of entry of  this Confession of Judgment.
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            6.  Plaintiff fully performed its duties under the Merchant Agreement.
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            7.  This Confession of Judgment is for a debt due to Plaintiff arising from both Defendant Merchant and  I individually, failing to pay
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-11">to the Plaintiff     Merchant Defendant’s future receipts, which were purchased by
+                        Plaintiff  pursuant to the  Merchant  Agreement dated
+                        </div>
+                        <div class="col-sm-1">
+                            <input type="text" class="form-control" name="date2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        , and for  Defendant Merchant and I individually breaching the Merchant Agreement, plus agreed-upon interest, attorneys’ fees, costs and disbursements, as agreed-upon  by  Defendant  Merchant  and  myself  individually  under  the  Merchant  Agreement  dated
+
+                        <input type="text" class="form-control col-sm-4" name="date3"> of  which supporting documents include  a  Personal  Guarantee and UCC-1 financing statement(s).
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            8.  Defendant Merchant and I hereby agree that the execution and delivery of this Affidavit of Confession of Judgment and any
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        entry of judgment thereon shall be without prejudice to any and all rights of Plaintiff,  which  reserves  all  of  its  rights  and  remedies  against Defendants.
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            9.  If for any reason entry of judgment in the above specified amount or execution on the same is outside the jurisdiction of this
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        Court, Defendant Merchant and I hereby consent to the personal jurisdiction, entry of judgment, and execution thereon in any State or Federal Court of the United States of America.
+                        By: <input type="text" class="form-control col-sm-4" name="by">
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            Sworn  to  before me this day of '.date('d, M').' ,  2019 before  me, the undersigned, personally appeared,
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="appeared">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        , personally known to me on the basis of satisfactory evidence to be the individual whose name is executed to the within Affidavit of Confession of Judgment and sworn to me that they signed
+                        <br><br><br>
+                        NOTARY PUBLIC<br>
+                        County of:<br>
+                        Commission Expires:
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <label class="form-inline">By:<input type="text" class="form-control" name="by3"></label>
+                        </div>
+                        <div class="col">, individually,</div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-sm-2"></div>
+                        <div class="col">
+                            Sworn  to  before me this day of '.date('d, M').' ,  2019 before  me, the undersigned, personally appeared,
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="appeared2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        , personally known to me on the basis of satisfactory evidence to be the individual whose name is executed to the within Affidavit of Confession of Judgment and sworn to me that they signed
+                        <br><br><br>
+                        NOTARY PUBLIC<br>
+                        County of:<br>
+                        Commission Expires:
+                    </div>
+                </div>';
         $agree = '<h1 class="text-center">Agreement for the Purchase and Sale of Future Receipts</h1>
                 <div class="form-row">
                     <div class="col">
@@ -830,7 +1169,8 @@ class BLservices extends Controller
         return view('loan-form', [
             'bcaa' => $bcaa,
             'scaa' => $scaa,
-            'agree' => $agree
+            'agree' => $agree,
+            'coj' => $coj
         ]);
     }
 
@@ -925,7 +1265,34 @@ class BLservices extends Controller
                 ];
                 $pdf = PDF::loadView('pdf.scaa', $data);
             }elseif($request->sample == 3){
+                //dd($request->all());
                 $filename = 'coj.pdf';
+                $data = [
+                    'county' => $request->county,
+                    'in_x' => $request->in_x,
+                    'index_no' => $request->index_no,
+                    'against1' => $request->against1,
+                    'against2' => $request->against2,
+                    'state' => $request->state,
+                    'county_of' => $request->county_of,
+                    'sworn' => $request->sworn,
+                    'officer' => $request->officer,
+                    'location' => $request->location,
+                    'county_of_2' => $request->county_of_2,
+                    'reside' => $request->reside,
+                    'county_of_3' => $request->county_of_3,
+                    'sum' => $request->sum,
+                    'dated' => $request->dated,
+                    'from' => $request->from,
+                    'sum2' => $request->sum2,
+                    'from2' => $request->from2,
+                    'date2' => $request->date2,
+                    'date3' => $request->date3,
+                    'by' => $request->by,
+                    'appeared' => $request->appeared,
+                    'by3' => $request->by3,
+                    'appeared2' => $request->appeared2,
+                ];
                 $pdf = PDF::loadView('pdf.coj', $data);
             }elseif($request->sample == 4){
                 $filename = 'rpa.pdf';
