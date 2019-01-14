@@ -5,6 +5,16 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Optima">
     <style>
+        @font-face {
+            font-family: 'Calibri';
+            src: '{{ base_path() }}/public/fonts/OPTIMA.ttf';
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: "Optima", sans-serif;
+            font-size: 9pt;
+        }
         .zzzz {
             position: relative;
             font-family: Optima, serif;

@@ -2,6 +2,16 @@
 <head>
     <title>Agreement For The Purchase & Sale of Future Receipts</title>
     <style>
+        @font-face {
+            font-family: 'Calibri';
+            src: '{{ base_path() }}/public/fonts/Helvetica.ttf';
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: "Helvetica", sans-serif;
+            font-size: 10pt;
+        }
         .page-break {
             page-break-after: always;
         }

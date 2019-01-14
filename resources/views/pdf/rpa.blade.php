@@ -2,6 +2,16 @@
 <head>
     <title>Referral Partner Agreement</title>
     <style>
+        @font-face {
+            font-family: 'Calibri';
+            src: '{{ base_path() }}/public/fonts/calibri.ttf';
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: "Calibri", sans-serif;
+            font-size: 11pt;
+        }
         .page-break {
             page-break-after: always;
         }
