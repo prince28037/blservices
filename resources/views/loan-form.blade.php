@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Loan Services</title>
+    <title>Samaritus Capital- PDF Generator</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('public/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -18,12 +18,10 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+<nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color:#243978">
     <div class="container">
-        <a class="navbar-brand" href="#">Business Loans</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<a class="navbar-brand" href="#">Contract Generator</a>
+        
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
