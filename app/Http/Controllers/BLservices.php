@@ -12,6 +12,473 @@ use Illuminate\Http\Request;
 class BLservices extends Controller
 {
     public function pdfForms(Request $request){
+        $rpa = '<h3 class="text-center">Referral Partner Agreement</h3>
+                <br>
+                <div class="form-row">
+                    <label class="form-inline">This  agreement  is  made  and  entered  into  effective  this by  and <input type="text" class="form-control" name="and1"> between Samaritus Capital Inc. a New York Corporation (the “Company”), and the undersigned Referral Partner (“Referral Partner”).
+                    </label><br>
+                    WHEREAS, the Company is engaged in the business of providing commercial financing solutions itself as well as through an aggregate network (the “Network”) of funding and payment processing companies or organizations that may purchase all of the merchant’s rights, title and interests in and to a specified amount of the merchant’s future sales (“Future Receivables”) from qualifying merchants  (the  “Program”)  in  their  sole  and  absolute  discretion  and  may  implement  payment processing  software  and  integrations  and  related  products  as  mentioned  in  the  aggregate network’s (the “Network”) respective contracts and terms; and WHEREAS the Company is paid commissions  by  referring  any  merchant  by  which  the  Company  or  its  undersigned  Referral Partners engage with (a “Referred Merchant”) to the Company, or to any company or organization with the Network.
+                    <br><br>WHEREAS, Referral Partner is engaged in business as a leasing, funding advisor, association, or independent sales organization; consultant or broker or service provider that works with small business owners on a regular basis; and
+                    <br><br>WHEREAS, the Company and Referral Partner desire to enter into an arrangement for Referral Partner to refer merchants to the Company as set forth in this Agreement.
+                    <br><br>NOW, THEREFORE, for good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto, intending to be legally bound, hereby agree as follows.
+                    <br><br>1) Referral Process; Referral Fee
+                    If the Company and Network accepts the application of any merchant that includes a statement that  Referral  Partner  is  the  referring  organization  (a  “Referred  Merchant”)  and,  in  its  sole discretion,  enters  into  an  Agreement  to  purchase  Future  Receivables  from  such  Referred Merchant  (a  “Purchase  Agreement”),  then  pursuant  to  amount  paid  under  the  Purchase Agreement (the “Purchase Price”) or implements payment processing software and integrations or related products as mentioned in the Network’s respective contracts and terms, Referral  Partner  shall  be  entitled  to  receive  Revenue  as  detailed  in  the  schedule  A  of  this agreement. Notwithstanding anything herein to the contrary, the Company and the Network shall be entitled to accept or reject any application by a Referred Merchant in its sole discretion and shall  have  no  obligation  to  accept  any  application  of  any  Referred  Merchant.  No  Purchase Agreement  shall  be  binding  on  the  Company  and  shall  not  entitle  the  Referral  Partner  to  any revenue unless said agreement has been accepted and fully executed by a duly authorized officer
+                    of the Company and duly authorized officer in association with the Network’s applicable company or organization.
+                    <br><br>2) Term: Termination
+
+                    The term of this Agreement shall commence on the date hereof and continue until terminated by either party upon thirty (30) days’ prior written notice to the other party. Upon termination of this Agreement, all rights and obligations hereunder shall cease, except for the obligation of  (a) the Company to make any payments to Referral Partner pursuant to Section I and (b)  Referral Partner to make any payments to the Company, in each case with respect to any Referral Partner monthly dues or any application received from Referred Merchant prior to the notice of termination. The Company may terminate this Agreement for any reason, upon ten (10) days’ written notice to Referral Partner. Upon termination, Referral Partner shall cease marketing the Company’s and the Network’s services to merchants.
+                    <br><br>3) Representations, Warranties and Covenants of Referral Partner    a) In General. Referral Partner represents and warrants to the Company as follows: (a) if applicable, Referral Partner is duly incorporated/formed/organized, validly existing, and in good standing in the jurisdiction of its incorporation/formation/organization and is duly qualified to do business and in good standing in each jurisdiction in which it conducts its business; (b) if applicable, Referral Partner has full corporate/partnership/limited liability company power and authority to enter into this Agreement and perform this Agreement in accordance with its terms; (c) this Agreement does not violate any law applicable to Referral Partner, Referral Partner’s charter or governing documents or any agreement, document or instrument to which Referral Partner is a party or by which it is bound; (d) this Agreement is a legal, valid and binding obligation of Referral Partner, enforceable against Referral Partner in accordance with its terms.    b) Referral Partner’s Conduct. Referral Partner covenants and agrees to use commercially reasonable efforts to market the Company’s services in good faith, and shall, at all times: (i) accurately describe the Company’s or the Network’s Program to qualifying merchants; (ii) adhere to the Company’s or Network’s funding or product guidelines; (iii) not represent that the merchant has been accepted or guaranteed acceptance into the Program prior to the acceptance by the Company and applicable Network entity; (iv) not act in a fashion that embarrasses, devalues, disparages or harms the Company, the Network, the Program, or other persons or entities marketing the Network or the Program;  and (v) be professional at all times. Furthermore, Referral Partner agrees not to (i) directly or indirectly publish, disclose, use or distribute the Company’s agreements, marketing materials, funding guidelines or other materials, unless specifically approved, in writing, by the Company; and (ii) Referral Partner shall secure approval by the Company prior to use of any marketing materials or forms that bear the Company’s logo and/or contain information related to the Company, the
+                    Network or the Program. Referral Partner shall also obtain the Company’s approval to any subsequent changes made thereto affecting the description or information relating to the Company, the Network or the Program. Referral Partner agrees not to market or advertise the program in a manner that violates any state or federal law.
+                    c) Due  Diligence. Referral  Partner  agrees  to  utilize  its  best  efforts  to  maintain accurate information on Referred Merchants on an ongoing basis, and to provide the Company with any new additional information about the Referred Merchant, and  to  investigate  any  inconsistencies  or  other  financial  issues  pertaining  to the Referred  Merchant  which  may  be  related  to  Referred   Merchant’s performance of  the  Company’s  or Network’s  Purchase  Agreement.  Referral Partner  shall  promptly notify   the  Company  in  writing  if   Referral   Partner  has  any  knowledge  that  any  application submitted by a Referred Merchant is not true, correct and complete in all respects.
+                    i) Representations and Warranties of the Company
+                    The Company represents and warrants to Referral Partner as follows: this Agreement is legal, valid and binding.
+                    <br><br>4) Non-solicitation / Confidentiality
+                    Referral Partner agrees that, during the term of this Agreement, Referral Partner shall not, directly or  indirectly,  solicit  or  induce  any  employee,  agent  or  Referral  Partner  of  the  Company  to terminate his or her employment or relationship with the Company. The parties agree that any breach of this section 4 would subject the Company to irreparable harm for which money damages would not be a sufficient remedy. Accordingly, Referral Partner agrees that the Company shall be entitled to injunctive or equitable relief in addition to other remedies that may be available at law or in equity. Referral Partner further agrees that, during the course of performing its obligations under this Agreement, it may acquire information about the other party, its business activities and operations,  its  technical  information  and  trade  secrets  of  a  highly  confidential  and  proprietary nature,  including,  without  limitation,  agreements,  marketing  records  and  plans,  forecasts  and strategies, prospect records including all lead data provided, client records and documentation, mailing  lists,  staffing  levels,  system  information,  technology,  technical  information,  know-how, computer  programs,  and  general  financing  and  business  plans  and  information  (all  such information  being  “Confidential  Information”).  Referral  Partner  shall  hold  the  Company’s Confidential Information in strict confidence and will use reasonable precautions to prevent the unauthorized  disclosure  or  access  to  the  Company’s  Confidential  Information.  Referral  Partner agrees that it will not, during the term hereof or thereafter and unless otherwise instructed by the  Company or  required by  law,  (a)  divulge,  furnish,  disclose,  or  make  accessible  to  any  third party  (other  than  directors,  officers,  or  employees  of  the  Company) any  of  the  Confidential Information; (b) make use of the Company’s confidential information, other than as reasonably necessary  for  the  performance  of  this  Agreement;  provided,  however,  that  Confidential Information shall not include any information which, at the time of disclosure by the disclosing party is generally available to and known by the public other than through any action or inaction
+                    by the Company; or (c) has been independently acquired or developed by the receiving party without access to such information and without use of any Confidential Information of the disclosing party, and without violating any obligations under this Agreement, or of any other agreement between the Company and Referral Partner.
+                    <br><br>5) Notice; Payments    All notices and other communications hereunder shall be in writing and shall be deemed given (a) three days after being deposited in the U.S. mail, first class, certified mail, return receipt requested, postage prepaid, or (b) upon delivery if delivered in person or sent by a nationally recognized overnight courier which provides confirmation of receipt, in any case to the address specified below. Notices shall not be sent in any other manner. Either party may change the address to which notices are to be sent to such party by providing written notice to the other party in the manner specified herein.
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">If to the Company:</div>
+                    <div class="col">Samaritus Capital <br>  4250 Veterans Highway <br>Suite 303 East Tower<br>  Holbrook, NY 11741</div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">If to the Referral Partner:</div>
+                    <div class="col">
+                        <input type="text" class="form-control" name="partner1"><br>
+                        <input type="text" class="form-control" name="partner2"><br>
+                        <input type="text" class="form-control" name="partner3">
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    6) Miscellaneous
+                    <br><br>a) Jurisdiction; Venue; Governing Law. Jurisdiction and venue for any claim or cause of action arising under this Agreement shall be exclusively in the state courts of New York located in Suffolk County and this agreement shall be governed and construed in accordance with the laws of the state of New York.
+                    <br><br>b) Referral Partners. The Company and Referral Partner are and shall remain Referral Partners and nothing herein shall be deemed or construed to create the relationship of employee, agent, joint venture, or any other relationship between the Company and Referral Partner.
+                    <br><br>c) Assignment. This agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and permitted assigns. This Agreement shall not confer any rights or remedies upon any person other than the parties hereto and their respective successors and permitted assigns. This agreement may not be assigned by Referral Partner without the prior written consent of the Company, which will not be unreasonably withheld. Any attempted assignment of this Agreement without such prior written consent shall be void.
+
+                    Referral Partner shall notify the company in writing of any change of control of Referral Partner at least 3 days prior to the effective date thereof.
+                    <br><br>d) No Third-Party Beneficiaries. No provision of this agreement is intended to benefit any person or entity other than the parties hereto and their successors and permitted assigns, and no provision of this agreement shall be enforceable by any other person or entity.
+                    <br><br>e) Referred Merchant Defaults. In the event a Referred Merchant is deemed to be in default under the Purchase Agreement within thirty (30) days of the initial advance from the selected Funding Source to the Referred Merchant or if an Referral Partner is found to have violated any section of this Agreement, the  Company may demand and the Referral Partner shall immediately return to the Company the commission owed to the Company from Referral Partners bank account via Automated Clearing House (“ACH”) without prior notice or to deduct such amount from any amounts due to Referral Partner for other Referred Merchant referrals.
+                    <br><br>f) Limitations of Damages. The parties agree and acknowledge that each party’s damages under this Agreement or the activity contemplated herein are limited to actual losses incurred by a party as a result of a breach of this Agreement and their responsible attorneys’ fees incurred, and that no incidental, indirect, consequential, special, speculative, lost profits, exemplary, punitive or statutory damages may be asserted or collected by one party against the other party, unless relating to a breach of paragraph 5 herein.
+                    <br><br>g) Severability. If any provision of this Agreement shall, for any reason, be adjudged by any court of competent jurisdiction to be invalid or unenforceable, such judgment shall not affect, impair or invalidate the remainder of this Agreement but shall be confined to the provision of this Agreement directly involved in the controversy in which such judgement shall have been rendered.
+                    <br><br>h) Waiver. No failure by any party to exercise, and no delay in exercising any right hereunder shall operate as a waiver of such right, nor shall any single or partial exercise of any right hereunder by any party preclude any by the waiving party.
+                    <br><br>i) Indemnification. Referral Partner indemnifies and holds the Company harmless from any liabilities, lawsuits, penalties, claims or demands (including the costs, expenses and reasonable attorney fees on account therefore) arising out of thirdparty claims relating to Referral Partner’s actions or inactions.
+                    <br><br>j) Agreement Modification. Other than expressly referenced herein, this agreement contains all terms agreed upon by the parties hereto with respect to the subject matter hereof and supersedes all prior agreements or arrangements or understandings between such parties as to the subject matter hereof. This agreement may not be changed orally but only by an instrument in writing signed by the party against whom enforcement of any waiver, change, modification, extension, or discharge is sought.
+                    <br><br>k) Further Assurances. Each party shall, at the request of the other but without further consideration (other than reimbursement for all reasonable out-of-pocket third-party expenses), do, execute, acknowledge, deliver and file, or shall cause to
+                    be  done,  executed,  acknowledged,  delivered or  filed,  all  such  further  acts  and documents  as  maybe  reasonably  requested  to  consummate  the  transactions contemplated by this Agreement.
+                    <br><br>l) Headings. The  section  headings  contained  in  this  Agreement  are  inserted  for convenience only and shall not affect in any way the meaning or interpretation of this Agreement.
+                    <br><br>m) Counterparts. This Agreement may be executed in multiple counterparts, each of which shall be deemed an original and all of which together shall constitute one and the same instrument.
+                    <br><br>n) Commissions. Referral  Partner  shall  be  paid  commissions  in  the  amount  and method equal to that depicted in Schedule A and within five (5) business days of funding  or  Company’s  receipt  of  commissions.  Schedule  A  is  subject  to  change without  notice.  Referral Partner should  be  advised  their  commissions  within  the referral funding program will vary based on the company or organization selected for deal closure within the Network.
+
+
+                    <br><br>[Signature page to follow]
+
+                    <br><br>IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date first above written.
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">Samaritus Capital: </div>
+                    <div class="col">
+                        <label class="form-inline">
+                            Referral Partner:<input type="text" class="form-control" name="ref_partner">
+                        </label>
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">
+                        <label class="form-inline">
+                            Print Name:<input type="text" class="form-control" name="print_name1">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="form-inline">
+                            Print Name:<input type="text" class="form-control" name="print_name2">
+                        </label>
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">
+                        <label class="form-inline">
+                            Title:<input type="text" class="form-control" name="title1">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="form-inline">
+                            Title:<input type="text" class="form-control" name="title2">
+                        </label>
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">
+                        Signature ________________________________
+                    </div>
+                    <div class="col">
+                        Signature _________________________________
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">
+                        <label class="form-inline">
+                            Date:<input type="text" class="form-control" name="date1">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="form-inline">
+                            Date:<input type="text" class="form-control" name="date2">
+                        </label>
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-row">
+                    <div class="col">
+                        Samaritus Capital Inc. <br>4250 Veterans Highway <br>Suite 303 East Tower, <br>Holbrook NY 11741 <br>Attn: David Kornfeld <br>Phone: 516-567-2278 <br>davidk@samarituscapital.com
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <br><br>
+                <h4 class="text-center">ACH Authorization Form</h4>
+                <br><br>
+                <div class="form-row">
+                    <label class="form-inline">
+                        Referral Partner Name :<input type="text" name="ref_partner2" class="form-control">
+                    </label>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="types">Type of Authorization (please check one):</label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="types" id="inlineRadio1" value="1">
+                            <label class="form-check-label" for="inlineRadio1">New ACH Authorization </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="types" id="inlineRadio2" value="2">
+                            <label class="form-check-label" for="inlineRadio2">Change of Bank Info </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="types" id="inlineRadio3" value="3">
+                            <label class="form-check-label" for="inlineRadio3">Terminate ACH Authorization </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    I authorize Samaritus Capital to initiate ACH debits and credits against the account listed below, in accordance with the terms stated in the Referral Partner Agreement. This authorization will remain in effect until SCP has received written notification from me to terminate said authorization.
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Bank Name</label>
+                            <input type="text" class="form-control" name="bank_name">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Bank Address</label>
+                            <input type="text" class="form-control" name="bank_address">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Bank Phone</label>
+                            <input type="text" class="form-control" name="bank_phone">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Type of Account</label>
+                            <input type="text" class="form-control" name="ac_type">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Account #:</label>
+                            <input type="text" class="form-control" name="ac">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>ABA/Routing #:</label>
+                            <input type="text" class="form-control" name="aba">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Date :</label>
+                            <input type="text" class="form-control" name="bank_date">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Signature:</label>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="jumbotron">
+                    <h2 class="mt-2 text-center">INDEPENDENT CONTRACTOR	APPLICATION</h2>
+                    <h3 class="mt-2 text-center">COMPANY INFORMATION</h3>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="name" class="font-weight-bold">Company Legal Name :</label>
+                            <input class="form-control" id="name" name="clname">
+                        </div>
+                        <div class="col">
+                            <label for="dba" class="font-weight-bold">DBA Name :</label>
+                            <input class="form-control" id="dba" name="dba_name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="fti" class="font-weight-bold">Contact :</label>
+                                    <input class="form-control" id="fti" name="contact">
+                                </div>
+                                <div class="col">
+                                    <label for="bsd" class="font-weight-bold">Phone :</label>
+                                    <input class="form-control" id="bsd" name="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label class="font-weight-bold">Email :</label>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label class="font-weight-bold">Current Address :</label>
+                        <input type="text" class="form-control" name="cAddress">
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="phone" class="font-weight-bold">City :</label>
+                                    <input class="form-control" id="phone" name="city">
+                                </div>
+                                <div class="col">
+                                    <label for="fax" class="font-weight-bold">State :</label>
+                                    <input class="form-control" id="fax" name="state">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="site" class="font-weight-bold">Zip :</label>
+                            <input class="form-control" id="site" name="zip">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="col">
+                                        <label for="paddress" class="font-weight-bold">Tax ID :</label>
+                                        <input class="form-control" id="paddress" name="taxId">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="col">
+                                        <label for="paddress" class="font-weight-bold">Years in Business :</label>
+                                        <input class="form-control" id="paddress" name="years">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="pcity" class="font-weight-bold">Entity Structure :</label>
+                                    <input class="form-control" id="pcity" name="entity">
+                                </div>
+                                <div class="col">
+                                    <label for="pstate" class="font-weight-bold">State of Incorporation :</label>
+                                    <input class="form-control" id="pstate" name="stateIn">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="maddress" class="font-weight-bold">Deal Volume per Month (Units) :</label>
+                            <input class="form-control" id="maddress" name="volume">
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <label for="mcity" class="font-weight-bold">Deal Volume per Month (Dollars) :</label>
+                                <input class="form-control" id="mcity" name="dollars">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="maddress" class="font-weight-bold">Total Funding	Last Calendar Year :</label>
+                            <input class="form-control" id="maddress" name="totalFund">
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <label for="mcity" class="font-weight-bold">Website :</label>
+                                <input class="form-control" id="mcity" name="website">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-2 text-center">Principal Information</h2>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="name" class="font-weight-bold">Name :</label>
+                        <input class="form-control" id="name" name="name">
+                    </div>
+                    <div class="col">
+                        <label class="font-weight-bold" for="home">DOB :</label>
+                        <input type="text" class="form-control" name="dob">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="email" class="font-weight-bold">Cell :</label>
+                        <input class="form-control" id="email" name="cell">
+                    </div>
+                    <div class="col">
+                        <label for="mobile" class="font-weight-bold">SSN :</label>
+                        <input class="form-control" id="mobile" name="ssn">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="haddress" class="font-weight-bold">Home Address :</label>
+                    <input class="form-control" id="haddress" name="haddress">
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="hcity" class="font-weight-bold">City :</label>
+                        <input class="form-control" id="hcity" name="hcity">
+                    </div>
+                    <div class="col">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="hstate" class="font-weight-bold">State :</label>
+                                <input class="form-control" id="hstate" name="hstate">
+                            </div>
+                            <div class="col">
+                                <label for="hzip" class="font-weight-bold">ZIP :</label>
+                                <input class="form-control" id="hzip" name="hzip">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <label class="font-weight-bold">Email :</label>
+                        <input type="text" class="form-control" name="email2">
+                    </div>
+                    <div class="col">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="email" class="font-weight-bold">Years of Industry Experience :</label>
+                                <input class="form-control" id="email" name="yie">
+                            </div>
+                            <div class="col">
+                                <label for="mobile" class="font-weight-bold">Title :</label>
+                                <input class="form-control" id="mobile" name="title3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="jumbotron">
+                    <h2 class="mt-2 text-center">INDUSTRY TRADE REFERENCES (2)</h2>
+                    <div class="form-row">
+                        <label class="font-weight-bold">Company Name :</label>
+                        <input type="text" class="form-control" name="company_name3">
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="in-type" class="font-weight-bold">Contact :</label>
+                                    <input class="form-control" id="in-type" name="contact4">
+                                </div>
+                                <div class="col">
+                                    <label for="sfo" class="font-weight-bold">Phone :</label>
+                                    <input class="form-control" id="sfo" name="phone4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="sfo" class="font-weight-bold">Email :</label>
+                            <input class="form-control" id="sfo" name="email4">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label class="font-weight-bold">Company Name :</label>
+                        <input type="text" class="form-control" name="company_name4">
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="in-type" class="font-weight-bold">Contact :</label>
+                                    <input class="form-control" id="in-type" name="contact5">
+                                </div>
+                                <div class="col">
+                                    <label for="sfo" class="font-weight-bold">Phone :</label>
+                                    <input class="form-control" id="sfo" name="phone5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="sfo" class="font-weight-bold">Email :</label>
+                            <input class="form-control" id="sfo" name="email5">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="roo" class="font-weight-bold">Have you worked with Samaritus Capital in the past?</label>
+                            <input class="form-control" id="roo" name="past">
+                        </div>
+                        <div class="col">
+                            <label for="amount" class="font-weight-bold">If Yes, in what way?</label>
+                            <input class="form-control" id="amount" name="why">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lmcci" class="font-weight-bold">How did you hear about Samaritus Capital?</label>
+                        <input type="text" class="form-control" id="lmcci" name="hear">
+                    </div>
+                </div>
+                <div class="form-row">
+                    The undersigned hereby authorizes Samaritus Capital and its affiliates to obtain business and non-business investigative reports,including, but not limited to credit report,and consents to the use of such information by Samaritus Capital in its normal course of business. This authorization  is made by the undersigned as an individual and on behalf of the entity identifiedabove.The undersigned understands that Samaritus Capital may refuse to do business or enter into a formal agreement for any reason, and this application does not constitute an agreement or intent to enter into an agreement.
+                    <br><br>I attest that the information and any documents submitted in connection with this application are correct and complete to the best of my knowledge and have been voluntarily submitted. Electronic copy of this authorization shall be deemed to be the equivalent	of	the	original.
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="roo" class="font-weight-bold">Signature</label>
+                    </div>
+                    <div class="col">
+                        <label for="amount" class="font-weight-bold">Date :</label>
+                        <input class="form-control" id="amount" name="date6">
+                    </div>
+                </div>';
         $coj = '<h1 class="text-center">CONFESSION OF JUDGMENT</h1>
 
                 <div>
@@ -1590,7 +2057,8 @@ class BLservices extends Controller
             'bcaa' => $bcaa,
             'scaa' => $scaa,
             'agree' => $agree,
-            'coj' => $coj
+            'coj' => $coj,
+            'rpa' => $rpa
         ]);
     }
 
@@ -1715,6 +2183,68 @@ class BLservices extends Controller
                 $pdf = PDF::loadView('pdf.coj', $data);
             }elseif($request->sample == 4){
                 $filename = 'rpa.pdf';
+                $data = [
+                    'and1' => $request->and1,
+                    'partner1' => $request->partner1,
+                    'partner2' => $request->partner2,
+                    'partner3' => $request->partner3,
+                    'ref_partner' => $request->ref_partner,
+                    'print_name1' => $request->print_name1,
+                    'print_name2' => $request->print_name2,
+                    'title1' => $request->title1,
+                    'title2' => $request->title2,
+                    'date1' => $request->date1,
+                    'date2' => $request->date2,
+                    'ref_partner2' => $request->ref_partner2,
+                    'bank_name' => $request->bank_name,
+                    'bank_address' => $request->bank_address,
+                    'bank_phone' => $request->bank_phone,
+                    'ac_type' => $request->ac_type,
+                    'ac' => $request->ac,
+                    'aba' => $request->aba,
+                    'bank_date' => $request->bank_date,
+                    'clname' => $request->clname,
+                    'dba_name' => $request->dba_name,
+                    'contact' => $request->contact,
+                    'phone' => $request->phone,
+                    'email' => $request->email,
+                    'cAddress' => $request->cAddress,
+                    'city' => $request->city,
+                    'state' => $request->state,
+                    'zip' => $request->zip,
+                    'taxId' => $request->taxId,
+                    'years' => $request->years,
+                    'entity' => $request->entity,
+                    'stateIn' => $request->stateIn,
+                    'volume' => $request->volume,
+                    'dollars' => $request->dollars,
+                    'totalFund' => $request->totalFund,
+                    'website' => $request->website,
+                    'name' => $request->name,
+                    'dob' => $request->dob,
+                    'cell' => $request->cell,
+                    'ssn' => $request->ssn,
+                    'haddress' => $request->haddress,
+                    'hcity' => $request->hcity,
+                    'hstate' => $request->hstate,
+                    'hzip' => $request->hzip,
+                    'email2' => $request->email2,
+                    'yie' => $request->yie,
+                    'title3' => $request->title3,
+                    'company_name3' => $request->company_name3,
+                    'contact4' => $request->contact4,
+                    'phone4' => $request->phone4,
+                    'email4' => $request->email4,
+                    'company_name4' => $request->company_name4,
+                    'contact5' => $request->contact5,
+                    'phone5' => $request->phone5,
+                    'email5' => $request->email5,
+                    'past' => $request->past,
+                    'why' => $request->why,
+                    'hear' => $request->hear,
+                    'date6' => $request->date6,
+                    'types' => $request->types,
+                ];
                 $pdf = PDF::loadView('pdf.rpa', $data);
             }elseif($request->sample == 5){
                 $filename = 'agree.pdf';
@@ -1776,13 +2306,245 @@ class BLservices extends Controller
     }
 
     public function downloadPdf(Request $request){
+        ini_set('memory_limit', '256M');
         if($request->isMethod('post')){
-            $data = [
-                'name' => 'Mahmud Abdur Rahman'
-            ];
-            $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
+            $filename = 'bl.pdf';
+            $data = array();
+            if($request->sample == 1){
+                $filename = 'bcaa.pdf';
+                $data = [
+                    'opt' => $request->opt,
+                    'corp' => $request->corp,
+                    'home' => $request->home,
+                    'blname' => $request->blname,
+                    'dba' => $request->dba,
+                    'fti' => $request->fti,
+                    'bsd' => $request->bsd,
+                    'phone' => $request->phone,
+                    'fax' => $request->fax,
+                    'site' => $request->site,
+                    'paddress' => $request->paddress,
+                    'pcity' => $request->pcity,
+                    'pstate' => $request->pstate,
+                    'pzip' => $request->pzip,
+                    'maddress' => $request->maddress,
+                    'mcity' => $request->mcity,
+                    'mstate' => $request->mstate,
+                    'mzip' => $request->mzip,
+                    'name' => $request->name,
+                    'haddress' => $request->haddress,
+                    'hcity' => $request->hcity,
+                    'hstate' => $request->hstate,
+                    'hzip' => $request->hzip,
+                    'email' => $request->email,
+                    'mobile' => $request->mobile,
+                    'dob' => $request->dob,
+                    'ss' => $request->ss,
+                    'in_type' => $request->in_type,
+                    'sfo' => $request->sfo,
+                    'roo' => $request->roo,
+                    'amount' => $request->amount,
+                    'lmcci' => $request->lmcci,
+                    'gas' => $request->gas,
+                    'capital' => $request->capital,
+                    'mccsv' => $request->mccsv,
+                    'purpose' => $request->purpose,
+                    'due' => $request->due,
+                    'print_name' => $request->print_name,
+                    'date' => $request->date,
+                ];
+                $pdf = PDF::loadView('pdf.bcaapplicationdk', $data);
+            }elseif($request->sample == 2){
+                $filename = 'scaa.pdf';
+                $data = [
+                    'company' => $request->company,
+                    'to' => $request->to,
+                    'date' => $request->date,
+                    'op11' => $request->op11,
+                    'op12' => $request->op12,
+                    'op13' => $request->op13,
+                    'op21' => $request->op21,
+                    'op22' => $request->op22,
+                    'op23' => $request->op23,
+                    'op31' => $request->op31,
+                    'op32' => $request->op32,
+                    'op33' => $request->op33,
+                    'op41' => $request->op41,
+                    'op42' => $request->op42,
+                    'op43' => $request->op43,
+                    'op51' => $request->op51,
+                    'op52' => $request->op52,
+                    'op53' => $request->op53,
+                    'op61' => $request->op61,
+                    'op62' => $request->op62,
+                    'op63' => $request->op63,
+                    'op71' => $request->op71,
+                    'op72' => $request->op72,
+                    'op73' => $request->op73,
+                    'op81' => $request->op81,
+                    'op82' => $request->op82,
+                    'op83' => $request->op83,
+                    'op91' => $request->op91,
+                    'op92' => $request->op92,
+                    'op93' => $request->op93,
+                    'doc1' => $request->doc1,
+                    'doc2' => $request->doc2,
+                    'doc3' => $request->doc3,
+                    'sub1' => $request->sub1,
+                    'sub2' => $request->sub2,
+                    'sub3' => $request->sub3,
+                ];
+                $pdf = PDF::loadView('pdf.scaa', $data);
+            }elseif($request->sample == 3){
+                $filename = 'coj.pdf';
+                $data = [
+                    'county' => $request->county,
+                    'in_x' => $request->in_x,
+                    'index_no' => $request->index_no,
+                    'against1' => $request->against1,
+                    'against2' => $request->against2,
+                    'state' => $request->state,
+                    'county_of' => $request->county_of,
+                    'sworn' => $request->sworn,
+                    'officer' => $request->officer,
+                    'location' => $request->location,
+                    'county_of_2' => $request->county_of_2,
+                    'reside' => $request->reside,
+                    'county_of_3' => $request->county_of_3,
+                    'sum' => $request->sum,
+                    'dated' => $request->dated,
+                    'from' => $request->from,
+                    'sum2' => $request->sum2,
+                    'from2' => $request->from2,
+                    'date2' => $request->date2,
+                    'date3' => $request->date3,
+                    'by' => $request->by,
+                    'appeared' => $request->appeared,
+                    'by3' => $request->by3,
+                    'appeared2' => $request->appeared2,
+                ];
+                $pdf = PDF::loadView('pdf.coj', $data);
+            }elseif($request->sample == 4){
+                $filename = 'rpa.pdf';
+                $data = [
+                    'and1' => $request->and1,
+                    'partner1' => $request->partner1,
+                    'partner2' => $request->partner2,
+                    'partner3' => $request->partner3,
+                    'ref_partner' => $request->ref_partner,
+                    'print_name1' => $request->print_name1,
+                    'print_name2' => $request->print_name2,
+                    'title1' => $request->title1,
+                    'title2' => $request->title2,
+                    'date1' => $request->date1,
+                    'date2' => $request->date2,
+                    'ref_partner2' => $request->ref_partner2,
+                    'bank_name' => $request->bank_name,
+                    'bank_address' => $request->bank_address,
+                    'bank_phone' => $request->bank_phone,
+                    'ac_type' => $request->ac_type,
+                    'ac' => $request->ac,
+                    'aba' => $request->aba,
+                    'bank_date' => $request->bank_date,
+                    'clname' => $request->clname,
+                    'dba_name' => $request->dba_name,
+                    'contact' => $request->contact,
+                    'phone' => $request->phone,
+                    'email' => $request->email,
+                    'cAddress' => $request->cAddress,
+                    'city' => $request->city,
+                    'state' => $request->state,
+                    'zip' => $request->zip,
+                    'taxId' => $request->taxId,
+                    'years' => $request->years,
+                    'entity' => $request->entity,
+                    'stateIn' => $request->stateIn,
+                    'volume' => $request->volume,
+                    'dollars' => $request->dollars,
+                    'totalFund' => $request->totalFund,
+                    'website' => $request->website,
+                    'name' => $request->name,
+                    'dob' => $request->dob,
+                    'cell' => $request->cell,
+                    'ssn' => $request->ssn,
+                    'haddress' => $request->haddress,
+                    'hcity' => $request->hcity,
+                    'hstate' => $request->hstate,
+                    'hzip' => $request->hzip,
+                    'email2' => $request->email2,
+                    'yie' => $request->yie,
+                    'title3' => $request->title3,
+                    'company_name3' => $request->company_name3,
+                    'contact4' => $request->contact4,
+                    'phone4' => $request->phone4,
+                    'email4' => $request->email4,
+                    'company_name4' => $request->company_name4,
+                    'contact5' => $request->contact5,
+                    'phone5' => $request->phone5,
+                    'email5' => $request->email5,
+                    'past' => $request->past,
+                    'why' => $request->why,
+                    'hear' => $request->hear,
+                    'date6' => $request->date6,
+                    'types' => $request->types,
+                ];
+                $pdf = PDF::loadView('pdf.rpa', $data);
+            }elseif($request->sample == 5){
+                $filename = 'agree.pdf';
+                $data = [
+                    'legalName' => $request->legalName,
+                    'dba' => $request->dba,
+                    'fbe' => $request->fbe,
+                    'other' => $request->other,
+                    'op11' => $request->op11,
+                    'sAddress' => $request->sAddress,
+                    'city' => $request->city,
+                    'state' => $request->state,
+                    'zip' => $request->zip,
+                    'mAddress' => $request->mAddress,
+                    'mcity' => $request->mcity,
+                    'mstate' => $request->mstate,
+                    'mzip' => $request->mzip,
+                    'title' => $request->title,
+                    'fti' => $request->fti,
+                    'price' => $request->price,
+                    'amount' => $request->amount,
+                    'ams' => $request->ams,
+                    'sp' => $request->sp,
+                    'ofee' => $request->ofee,
+                    'ida' => $request->ida,
+                    'effective' => $request->effective,
+                    'seller' => $request->seller,
+                    'atb' => $request->atb,
+                    'printName' => $request->printName,
+                    'lTitle' => $request->lTitle,
+                    'seller1' => $request->seller1,
+                    'printed1' => $request->printed1,
+                    'title1' => $request->title1,
+                    'as_of1' => $request->as_of1,
+                    'by1' => $request->by1,
+                    'and1' => $request->and1,
+                    'and3' => $request->and3,
+                    'guarantor1' => $request->guarantor1,
+                    'guarantor2' => $request->guarantor2,
+                    'seller4' => $request->seller4,
+                    'check_account' => $request->check_account,
+                    'nob' => $request->nob,
+                    'transit1' => $request->transit1,
+                    'check_account_2' => $request->check_account_2,
+                    'seller5' => $request->seller5,
+                    'print_name1' => $request->print_name1,
+                    'title_2' => $request->title_2,
+                    'taxId3' => $request->taxId3,
+                    'date_2' => $request->date_2,
+                    'pcn' => $request->pcn,
+                ];
+                $pdf = PDF::loadView('pdf.agree', $data);
+            }else{
+                abort(404);
+            }
             return $pdf->setPaper('letter', 'portrait')
-                ->download('invoice.pdf');
+                ->download($filename);
         }
     }
 

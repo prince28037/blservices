@@ -489,9 +489,9 @@
 
 <div class="refer-p1">
 <img src="{{ base_path() }}/public/pdf/rpa/page1.jpg" width="725">
-	<div class="eff-date">Test</div>
-	<div class="ini1">Test</div>
-	<div class="ini12">Test</div>
+	<div class="eff-date">{{ $and1 }}</div>
+	<div class="ini1"></div>
+	<div class="ini12"></div>
 
 
 </div>
@@ -499,59 +499,59 @@
 <div class="page-break"></div>
 <img src="{{ base_path() }}/public/pdf/rpa/page2.jpg" width="725">
 	
-	<div class="ini2">Test</div>
-	<div class="ini122">Test</div>
+	<div class="ini2"></div>
+	<div class="ini122"></div>
 
 
 <div class="page-break"></div>
 <img src="{{ base_path() }}/public/pdf/rpa/page3.jpg" width="725">
 	
-	<div class="ini3">Test</div>
-	<div class="ini132">Test</div>
+	<div class="ini3"></div>
+	<div class="ini132"></div>
 
 <div class="page-break"></div>
 
 <div class="refer-p4">
 <img src="{{ base_path() }}/public/pdf/rpa/page4.jpg" width="725">
-	<div class="refer-name">Test</div>
-	<div class="refer-addr1">Test</div>
-	<div class="refer-addr2">Test</div>
+	<div class="refer-name">{{ $partner1 }}</div>
+	<div class="refer-addr1">{{ $partner2 }}</div>
+	<div class="refer-addr2">{{ $partner3 }}</div>
 
-	<div class="ini4">Test</div>
-	<div class="ini142">Test</div>
+	<div class="ini4"></div>
+	<div class="ini142"></div>
 </div>
 
 <div class="page-break"></div>
 <img src="{{ base_path() }}/public/pdf/rpa/page5.jpg" width="725">
 
-	<div class="ini5">Test</div>
-	<div class="ini152">Test</div>
+	<div class="ini5"></div>
+	<div class="ini152"></div>
 
 <div class="page-break"></div>
 <img src="{{ base_path() }}/public/pdf/rpa/page6.jpg" width="725">
 
 
-	<div class="ini6">Test</div>
-	<div class="ini162">Test</div>
+	<div class="ini6"></div>
+	<div class="ini162"></div>
 
 <div class="page-break"></div>
 <div class="refer-p7">
 <img src="{{ base_path() }}/public/pdf/rpa/page7.jpg" width="725">
 
-	<div class="refer7-name">Test</div>
+	<div class="refer7-name">{{ $ref_partner }}</div>
 
-	<div class="s-printname">Test</div>
-	<div class="refer-printname">Test</div>
+	<div class="s-printname">{{ $print_name1 }}</div>
+	<div class="refer-printname">{{ $print_name2 }}</div>
 
-	<div class="s-title">Test</div>
-	<div class="refer7-title">Test</div>
+	<div class="s-title">{{ $title1 }}</div>
+	<div class="refer7-title">{{ $title2 }}</div>
 
-	<div class="s-date">Test</div>
-	<div class="refer-date">Test</div>
+	<div class="s-date">{{ $date1 }}</div>
+	<div class="refer-date">{{ $date2 }}</div>
 
 
-	<div class="ini7">Test</div>
-	<div class="ini72">Test</div>
+	<div class="ini7"></div>
+	<div class="ini72"></div>
 
 </div>
 
@@ -559,23 +559,23 @@
 <div class="refer-p8">
 <img src="{{ base_path() }}/public/pdf/rpa/page8.jpg" width="725">
 
-	<div class="refer8-name">Tggg</div>
-	<div class="chk-new">T</div>
-	<div class="chk-binfo">T</div>
-	<div class="chk-ach">T</div>
+	<div class="refer8-name">{{ $ref_partner2 }}</div>
+	<div class="chk-new">@if(isset($types) && $types == 1)&#x2714;@endif</div>
+	<div class="chk-binfo">@if(isset($types) && $types == 2)&#x2714;@endif</div>
+	<div class="chk-ach">@if(isset($types) && $types == 3)&#x2714;@endif</div>
 
 
-	<div class="bname">Test</div>
-	<div class="baddr">Test</div>
-	<div class="bphone">Test</div>
-	<div class="btype">Test</div>
-	<div class="bacct">Test</div>
-	<div class="brout">Test</div>
-	<div class="bdate">Test</div>
+	<div class="bname">{{ $bank_name }}</div>
+	<div class="baddr">{{ $bank_address }}</div>
+	<div class="bphone">{{ $bank_phone }}</div>
+	<div class="btype">{{ $ac_type }}</div>
+	<div class="bacct">{{ $ac }}</div>
+	<div class="brout">{{ $aba }}</div>
+	<div class="bdate">{{ $bank_date }}</div>
 
 
-	<div class="ini8">Test</div>
-	<div class="ini82">Test</div>
+	<div class="ini8"></div>
+	<div class="ini82"></div>
 
 </div>
 
@@ -584,53 +584,53 @@
 <img src="{{ base_path() }}/public/pdf/rpa/page9.jpg" width="725">
 
 
-	<div class="legal-name">Test</div>
+	<div class="legal-name">{{ $clname }}</div>
 
-	<div class="dba-name">Test</div>
+	<div class="dba-name">{{ $dba_name }}</div>
 
-	<div class="contact">Test</div>
-	<div class="phone">Test</div>
-	<div class="email">Test</div>
-	<div class="current-address">Test</div>
-	<div class="city">Test</div>
-	<div class="state">Test</div>
-	<div class="zip">Test</div>
-	<div class="taxid">Test</div>
-	<div class="bisyear">Test</div>
-	<div class="struct">Test</div>
-	<div class="incorp">Test</div>
-	<div class="deal-units">Test</div>
-	<div class="deal-dollar">Test</div>
-	<div class="tot-fund">Test</div>
-	<div class="website">Test</div>
-
-
-	<div class="pname">Test</div>
-	<div class="pdob">Test</div>
-	<div class="pcell">Test</div>
-	<div class="pssn">Test</div>
-	<div class="paddr">Test</div>
-	<div class="pcity">Test</div>
-	<div class="pstate">Test</div>
-	<div class="pzip">Test</div>
-	<div class="pemail">Test</div>
-	<div class="pexp">Test</div>
-	<div class="ptitle">Test</div>
+	<div class="contact">{{ $contact }}</div>
+	<div class="phone">{{ $phone }}</div>
+	<div class="email">{{ $email }}</div>
+	<div class="current-address">{{ $cAddress }}</div>
+	<div class="city">{{ $city }}</div>
+	<div class="state">{{ $state }}</div>
+	<div class="zip">{{ $zip }}</div>
+	<div class="taxid">{{ $taxId }}</div>
+	<div class="bisyear">{{ $years }}</div>
+	<div class="struct">{{ $entity }}</div>
+	<div class="incorp">{{ $stateIn }}</div>
+	<div class="deal-units">{{ $volume }}</div>
+	<div class="deal-dollar">{{ $dollars }}</div>
+	<div class="tot-fund">{{ $totalFund }}</div>
+	<div class="website">{{ $website }}</div>
 
 
-	<div class="iname">Test</div>
-	<div class="icontact">Test</div>
-	<div class="iphone">Test</div>
-	<div class="iemail">Test</div>
-	<div class="icname">Test</div>
-	<div class="iccontact">Test</div>
-	<div class="icphone">Test</div>
-	<div class="icemail">Test</div>
-	<div class="past">Test</div>
-	<div class="why">Test</div>
-	<div class="hear">Test</div>
+	<div class="pname">{{ $name }}</div>
+	<div class="pdob">{{ $dob }}</div>
+	<div class="pcell">{{ $cell }}</div>
+	<div class="pssn">{{ $ssn }}</div>
+	<div class="paddr">{{ $haddress }}</div>
+	<div class="pcity">{{ $hcity }}</div>
+	<div class="pstate">{{ $hstate }}</div>
+	<div class="pzip">{{ $hzip }}</div>
+	<div class="pemail">{{ $email2 }}</div>
+	<div class="pexp">{{ $yie }}</div>
+	<div class="ptitle">{{ $title3 }}</div>
+
+
+	<div class="iname">{{ $company_name3 }}</div>
+	<div class="icontact">{{ $contact4 }}</div>
+	<div class="iphone">{{ $phone4 }}</div>
+	<div class="iemail">{{ $email4 }}</div>
+	<div class="icname">{{ $company_name4 }}</div>
+	<div class="iccontact">{{ $contact5 }}</div>
+	<div class="icphone">{{ $phone5 }}</div>
+	<div class="icemail">{{ $email5 }}</div>
+	<div class="past">{{ $past }}</div>
+	<div class="why">{{ $why }}</div>
+	<div class="hear">{{ $hear }}</div>
 	
-	<div class="idate">Test</div>
+	<div class="idate">{{ $date6 }}</div>
 </div>
 </body>
 </html>

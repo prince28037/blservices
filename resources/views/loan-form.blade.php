@@ -91,6 +91,7 @@
         var scaa = `<?php echo $scaa; ?>`;
         var agree = `<?php echo $agree; ?>`;
         var coj = `<?php echo $coj; ?>`;
+        var rpa = `<?php echo $rpa; ?>`;
         $('#samples').on('change', function(e){
             e.preventDefault();
             if($(this).val() == 1){
@@ -99,6 +100,8 @@
                 $('#form-content').html(scaa);
             }else if($(this).val() == 3){
                 $('#form-content').html(coj);
+            }else if($(this).val() == 4){
+                $('#form-content').html(rpa);
             }else if($(this).val() == 5){
                 $('#form-content').html(agree);
             }else{
