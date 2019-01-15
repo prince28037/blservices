@@ -158,6 +158,10 @@
             e.preventDefault();
             $('.gtr22').val($(this).val());
         });
+        $('body').on('change','.tax1', function(e){
+            e.preventDefault();
+            $('.tax2').val($(this).val());
+        });
         $('#prev').on('click', function(e){
             e.preventDefault();
             var url = "{{ url('/services/pdf-forms/preview') }}";
