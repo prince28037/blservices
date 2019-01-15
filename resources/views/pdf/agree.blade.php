@@ -691,9 +691,9 @@
 <img src="{{ base_path() }}/public/pdf/agree/page12.jpg" width="725">
 
 	<div class="pri12-name">{{ $guarantor1 }}</div>
-	<div class="guarantor12">Test</div>
+	<div class="guarantor12">{{ $guarantor2 }}</div>
 	
-	<div class="guarantor122">{{ $guarantor2 }}</div>
+	<div class="guarantor122"></div>
 
 	<div class="ri12">Testg</div>
 	<div class="ow12">Testg</div>
