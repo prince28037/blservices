@@ -128,7 +128,7 @@
         }
          .date4 {
             position: absolute;
-            top: 76.6%;
+            top: 76.8%;
             left: 45%;
         }
 
