@@ -333,8 +333,8 @@
 
 <div class="bca1">
 <img src="{{ base_path() }}/public/pdf/bcaa/page1.jpg" width="725">
-    <div class="chk1">@if(isset($opt) && $opt == 'opt1')&#x2714;@endif</div>
-    <div class="chk2">@if(isset($opt) && $opt == 'opt2')&#x2714;@endif</div>
+    <div class="chk1">@if(isset($opt) && $opt == 'opt1')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+    <div class="chk2">@if(isset($opt) && $opt == 'opt2')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
 	
 </div>
 
@@ -347,10 +347,10 @@
     <div class="legal-name">{{ $blname }}</div>
     <div class="dba-name">{{ $dba }}</div>
 
-    <div class="chk-corp">@if(isset($corp) && $corp == 'option1')&#x2714;@endif</div>
-    <div class="chk-llc">@if(isset($corp) && $corp == 'option2')&#x2714;@endif</div>
-    <div class="chk-solep">@if(isset($corp) && $corp == 'option3')&#x2714;@endif</div>
-    <div class="chk-part">@if(isset($corp) && $corp == 'option4')&#x2714;@endif</div>
+    <div class="chk-corp">@if(isset($corp) && $corp == 'option1')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+    <div class="chk-llc">@if(isset($corp) && $corp == 'option2')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+    <div class="chk-solep">@if(isset($corp) && $corp == 'option3')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+    <div class="chk-part">@if(isset($corp) && $corp == 'option4')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
    
    <div class="tax-id">{{ $fti }}</div>
     <div class="bis-date">{{ $bsd }}</div>
@@ -372,8 +372,8 @@
 
 
     <div class="owner-name">{{ $name }}</div>
-    <div class="chk-rent">@if(isset($home) && $home == 'option1')&#x2714;@endif</div>
-    <div class="chk-own">@if(isset($home) && $home == 'option2')&#x2714;@endif</div>
+    <div class="chk-rent">@if(isset($home) && $home == 'option1')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+    <div class="chk-own">@if(isset($home) && $home == 'option2')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
 
     <div class="owner-addr">{{ $haddress }}</div>
     <div class="city-owner">{{ $hcity }}</div>

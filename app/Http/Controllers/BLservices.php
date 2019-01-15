@@ -2554,7 +2554,7 @@ class BLservices extends Controller
 
     public function banks(Request $request){
         $all_banks = new Collection();
-        $reader = Excel::load('public\banks.xlsx')->skip(1)->ignoreEmpty()->get();
+        $reader = Excel::load('public/banks.xlsx')->skip(1)->ignoreEmpty()->get();
         foreach ($reader->toArray() as $row) {
             $all_banks->push($row);
         }
@@ -2562,8 +2562,8 @@ class BLservices extends Controller
 //            dd($ab);
 //        }
 //        dd($all_banks);
-        $countries = Countries::all();
-        $banks = Banks::paginate(100);
+        //$countries = Countries::all();
+        //$banks = Banks::paginate(100);
         if($request->isMethod('post')){
             if($request->action == 'add'){
                 $errors = array();
@@ -2623,7 +2623,6 @@ class BLservices extends Controller
             }
         }
         return view('banks.ui', [
-            'countries' => $countries,
             'banks' => $all_banks
         ]);
     }
