@@ -210,14 +210,14 @@
 <div class="coj-p3">
 <img src="{{ base_path() }}/public/pdf/coj/page3.jpg" width="725">
 
-	<div class="date1">{{ $dated }}</div>
-	<div class="date2">{{ $from }}</div>
+	<div class="date1" id="dd1">{{ $dated }}</div>
+	<div class="date2" id="dd2">{{ $from }}</div>
 	
 	<div class="sum2">{{ $sum2 }}</div>
 	
-	<div class="date3">{{ $from2 }}</div>
+	<div class="date3" id="dd3">{{ $from2 }}</div>
 	
-	<div class="date4">{{ $date2 }}</div>
+	<div class="date4" id="dd4">{{ $date2 }}</div>
 	
     </div>
 	
@@ -225,17 +225,17 @@
 <div class="coj-p4">
 <img src="{{ base_path() }}/public/pdf/coj/page4.jpg" width="725">
 	
-	<div class="date5">{{ $date3 }}</div>
+	<div class="date5" id="dd5">{{ $date3 }}</div>
 
 	<div class="company-name4">{{ $by }}</div>
 
-	<div class="title">{{ $appeared }}</div>
+	<div class="title">{{ $left1 }}</div>
 	
-	<div class="owner-name3">{{ $by3 }}</div>
+	<div class="owner-name3">{{ $appeared }}</div>
 	
-	<div class="owner-name4">{{ $appeared2 }}</div>
+	<div class="owner-name4">{{ $by3 }}</div>
 	
-	<div class="owner-name5">Test</div>
+	<div class="owner-name5">{{ $appeared2 }}</div>
 
     </div>
 </body>

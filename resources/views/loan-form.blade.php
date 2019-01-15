@@ -106,6 +106,30 @@
                 $('#form-content').html('');
             }
         });
+        $('body').on('change','.date1', function(e){
+            e.preventDefault();
+            $('.date2').val($(this).val());
+            $('.date3').val($(this).val());
+            $('.date4').val($(this).val());
+            $('.date5').val($(this).val());
+        });
+        $('body').on('change','.sum1', function(e){
+            e.preventDefault();
+            $('.sum2').val($(this).val());
+        });
+        $('body').on('change','.cname1', function(e){
+            e.preventDefault();
+            $('.cname2').val($(this).val());
+            $('.cname3').val($(this).val());
+            $('.cname4').val($(this).val());
+        });
+        $('body').on('change','.oname1', function(e){
+            e.preventDefault();
+            $('.oname2').val($(this).val());
+            $('.oname3').val($(this).val());
+            $('.oname4').val($(this).val());
+            $('.oname5').val($(this).val());
+        });
         $('#prev').on('click', function(e){
             e.preventDefault();
             var url = "{{ url('/services/pdf-forms/preview') }}";

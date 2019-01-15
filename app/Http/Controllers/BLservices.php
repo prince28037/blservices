@@ -498,7 +498,7 @@ class BLservices extends Controller
                     <br>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" name="in_x">
+                            <input type="text" class="form-control cname1" name="in_x">
                         </div>
                         <div class="col">
                             <div class="form-row">
@@ -526,7 +526,7 @@ class BLservices extends Controller
                     <br>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" name="against1">
+                            <input type="text" class="form-control cname2" name="against1">
                         </div>
                         <div class="col"></div>
                         <div class="col"></div>
@@ -540,7 +540,7 @@ class BLservices extends Controller
                     <br>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" name="against2">
+                            <input type="text" class="form-control oname1" name="against2">
                         </div>
                         <div class="col"></div>
                         <div class="col"></div>
@@ -582,7 +582,7 @@ class BLservices extends Controller
                     <br>
                     <div class="form-row">
                         <div class="col">
-                            <input class="form-control" name="sworn" type="text">
+                            <input class="form-control oname2" name="sworn" type="text">
                         </div>
                         <div class="col">
                             , being duly sworn, deposes and says:
@@ -595,7 +595,7 @@ class BLservices extends Controller
                             1.  I am a principal, owner, and an officer of
                         </div>
                         <div class="col-sm-5">
-                            <input type="text" name="officer" class="form-control">
+                            <input type="text" name="officer" class="form-control cname3">
                         </div>
                     </div>
                     <br>
@@ -659,7 +659,7 @@ class BLservices extends Controller
                     <div class="form-row">
                         <div class="col-sm-2">the  sum of</div>
                         <div class="col-sm-4">
-                            <input type="text" class="form-control" name="sum">
+                            <input type="text" class="form-control sum1" name="sum">
                         </div>
                         <div class="col">
                             , less  any  payments  timely  made  pursuant  to the
@@ -672,7 +672,7 @@ class BLservices extends Controller
                             and Sale of  Future Receipts (the “Merchant Agreement”) dated
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" name="dated">
+                            <input type="text" class="form-control date1" name="dated">
                         </div>
                     </div>
                     <div class="form-row">
@@ -680,7 +680,7 @@ class BLservices extends Controller
                     </div>
                     <div class="form-row">
                         <div class="col-sm-4">
-                            <input type="text" class="form-control" name="from">
+                            <input type="text" class="form-control date2" name="from">
                         </div>
                         <div class="col">
                             or the highest amount allowed by law, whichever is greater, in connection with the enforcement of this
@@ -704,7 +704,7 @@ class BLservices extends Controller
                     <div class="form-row">
                         <div class="col">New  York, County of  New York, in the  sum of</div>
                         <div class="col">
-                            <input type="text" class="form-control" name="sum2">
+                            <input type="text" class="form-control sum2" name="sum2">
                         </div>
                         <div class="col">
                             ,  less  any  payments   timely made under   the
@@ -718,7 +718,7 @@ class BLservices extends Controller
                             and interest  at  the  rate  of  sixteen (16%)  percent  per  annum from
                         </div>
                         <div class="col-sm-2">
-                            <input type="text" class="form-control" name="from2">
+                            <input type="text" class="form-control date3" name="from2">
                         </div>
                         <div class="col">
                             , or  the  highest  rate  allowed  by  law, whichever  is  greater,
@@ -746,13 +746,13 @@ class BLservices extends Controller
                         Plaintiff  pursuant to the  Merchant  Agreement dated
                         </div>
                         <div class="col-sm-1">
-                            <input type="text" class="form-control" name="date2">
+                            <input type="text" class="form-control date4" name="date2">
                         </div>
                     </div>
                     <div class="form-row">
                         , and for  Defendant Merchant and I individually breaching the Merchant Agreement, plus agreed-upon interest, attorneys’ fees, costs and disbursements, as agreed-upon  by  Defendant  Merchant  and  myself  individually  under  the  Merchant  Agreement  dated
 
-                        <input type="text" class="form-control col-sm-4" name="date3"> of  which supporting documents include  a  Personal  Guarantee and UCC-1 financing statement(s).
+                        <input type="text" class="form-control col-sm-4 date5" name="date3"> of  which supporting documents include  a  Personal  Guarantee and UCC-1 financing statement(s).
                     </div>
                     <br>
                     <div class="form-row">
@@ -773,7 +773,8 @@ class BLservices extends Controller
                     </div>
                     <div class="form-row">
                         Court, Defendant Merchant and I hereby consent to the personal jurisdiction, entry of judgment, and execution thereon in any State or Federal Court of the United States of America.
-                        By: <input type="text" class="form-control col-sm-4" name="by">
+                        By: <input type="text" class="form-control col-sm-4 cname4" name="by">
+                        <input type="text" class="form-control col-sm-4" name="left1">
                     </div>
                     <br>
                     <div class="form-row">
@@ -782,7 +783,7 @@ class BLservices extends Controller
                             Sworn  to  before me this day of '.date('d, M').' ,  2019 before  me, the undersigned, personally appeared,
                         </div>
                         <div class="col-sm-2">
-                            <input type="text" class="form-control" name="appeared">
+                            <input type="text" class="form-control oname3" name="appeared">
                         </div>
                     </div>
                     <div class="form-row">
@@ -796,7 +797,7 @@ class BLservices extends Controller
                     <div class="form-row">
                         <div class="col"></div>
                         <div class="col">
-                            <label class="form-inline">By:<input type="text" class="form-control" name="by3"></label>
+                            <label class="form-inline">By:<input type="text" class="form-control oname4" name="by3"></label>
                         </div>
                         <div class="col">, individually,</div>
                     </div>
@@ -807,7 +808,7 @@ class BLservices extends Controller
                             Sworn  to  before me this day of '.date('d, M').' ,  2019 before  me, the undersigned, personally appeared,
                         </div>
                         <div class="col-sm-2">
-                            <input type="text" class="form-control" name="appeared2">
+                            <input type="text" class="form-control oname5" name="appeared2">
                         </div>
                     </div>
                     <div class="form-row">
@@ -2179,6 +2180,7 @@ class BLservices extends Controller
                     'appeared' => $request->appeared,
                     'by3' => $request->by3,
                     'appeared2' => $request->appeared2,
+                    'left1' => $request->left1,
                 ];
                 $pdf = PDF::loadView('pdf.coj', $data);
             }elseif($request->sample == 4){
@@ -2422,6 +2424,7 @@ class BLservices extends Controller
                     'appeared' => $request->appeared,
                     'by3' => $request->by3,
                     'appeared2' => $request->appeared2,
+                    'left1' => $request->left1,
                 ];
                 $pdf = PDF::loadView('pdf.coj', $data);
             }elseif($request->sample == 4){
