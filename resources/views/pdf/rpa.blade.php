@@ -570,9 +570,9 @@
 <img src="{{ base_path() }}/public/pdf/rpa/page8.jpg" width="725">
 
 	<div class="refer8-name">{{ $ref_partner2 }}</div>
-	<div class="chk-new">@if(isset($types) && $types == 1)&#x2714;@endif</div>
-	<div class="chk-binfo">@if(isset($types) && $types == 2)&#x2714;@endif</div>
-	<div class="chk-ach">@if(isset($types) && $types == 3)&#x2714;@endif</div>
+	<div class="chk-new">@if(isset($types) && $types == 1)<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-binfo">@if(isset($types) && $types == 2)<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-ach">@if(isset($types) && $types == 3)<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
 
 
 	<div class="bname">{{ $bank_name }}</div>

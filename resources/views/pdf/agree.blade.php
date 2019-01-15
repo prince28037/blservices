@@ -535,13 +535,13 @@
 	<div class="seller-name">{{ $legalName }}</div>
 	<div class="seller-dba">{{ $dba }}</div>
 
-	<div class="chk-corp">@if(isset($fbe) && $fbe == 'option1')&#x2714;@endif</div>
-	<div class="chk-llc">@if(isset($fbe) && $fbe == 'option2')&#x2714;@endif</div>
-	<div class="chk-part">@if(isset($fbe) && $fbe == 'option3')&#x2714;@endif</div>
-	<div class="chk-ltd">@if(isset($fbe) && $fbe == 'option4')&#x2714;@endif</div>
-	<div class="chk-llp">@if(isset($fbe) && $fbe == 'option5')&#x2714;@endif</div>
-	<div class="chk-sole">@if(isset($fbe) && $fbe == 'option6')&#x2714;@endif</div>
-	<div class="chk-other">@if(isset($fbe) && $fbe == 'option7')&#x2714;@endif</div>
+	<div class="chk-corp">@if(isset($fbe) && $fbe == 'option1')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-llc">@if(isset($fbe) && $fbe == 'option2')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-part">@if(isset($fbe) && $fbe == 'option3')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-ltd">@if(isset($fbe) && $fbe == 'option4')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-llp">@if(isset($fbe) && $fbe == 'option5')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-sole">@if(isset($fbe) && $fbe == 'option6')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
+	<div class="chk-other">@if(isset($fbe) && $fbe == 'option7')<div style="font-family: DejaVu Sans, sans-serif;">✔</div>@endif</div>
 	<div class="text-other">@if(isset($fbe) && $fbe == 'option7'){{ $other }}@endif</div>
 
 	<div class="str-addr">{{ $sAddress }}</div>

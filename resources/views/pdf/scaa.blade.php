@@ -12,7 +12,7 @@
             font-style: normal;
         }
         body {
-            font-family: "Optima", sans-serif;
+            font-family: "OPTIMA", sans-serif;
             font-size: 9pt;
         }
         .zzzz {
