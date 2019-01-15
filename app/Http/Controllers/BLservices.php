@@ -822,7 +822,7 @@ class BLservices extends Controller
         $agree = '<h1 class="text-center">Agreement for the Purchase and Sale of Future Receipts</h1>
                 <div class="form-row">
                     <div class="col">
-                        <input type="text" class="form-control" id="legalName" name="legalName" placeholder="Seller’s Legal Name">
+                        <input type="text" class="form-control seller1" id="legalName" name="legalName" placeholder="Seller’s Legal Name">
                     </div>
                     <div class="col">
                         <input type="text" class="form-control" id="dba" name="dba" placeholder="D/B/A">
@@ -911,15 +911,15 @@ class BLservices extends Controller
                 <br>
                 <div class="form-row">
                     <div class="col">
-                        <input type="text" class="form-control" id="pcn" name="pcn" placeholder="Primary Contact Name">
+                        <input type="text" class="form-control owner1" id="pcn" name="pcn" placeholder="Primary Contact Name">
                     </div>
                     <div class="col">
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" id="title" name="title" placeholder="Title">
+                                <input type="text" class="form-control ttl1" id="title" name="title" placeholder="Title">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" id="fti" name="fti" placeholder="Federal Tax ID">
+                                <input type="text" class="form-control tax1" id="fti" name="fti" placeholder="Federal Tax ID">
                             </div>
                         </div>
                     </div>
@@ -1029,7 +1029,7 @@ class BLservices extends Controller
                 <br>
                 <div class="form-row">
                     <div class="col">
-                        <input type="text" name="seller" class="form-control" placeholder="Seller">
+                        <input type="text" name="seller" class="form-control seller2" placeholder="Seller">
                     </div>
                     <div class="col">
                         (Company Name)
@@ -1048,7 +1048,7 @@ class BLservices extends Controller
                         </div>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" name="printName" placeholder="Printed Name">
+                        <input type="text" class="form-control owner2" name="printName" placeholder="Printed Name">
                     </div>
                 </div>
                 <br>
@@ -1059,7 +1059,7 @@ class BLservices extends Controller
                                 its
                             </div>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" name="lTitle">
+                                <input type="text" class="form-control ttl2" name="lTitle">
                             </div>
                             <div class="col-sm-2">
                                 (Title)
@@ -1232,7 +1232,7 @@ class BLservices extends Controller
                     <div class="col">
                         <label class="form-inline">
                             Seller :
-                            <input type="text" class="form-control" name="seller1">
+                            <input type="text" class="form-control seller3" name="seller1">
                             (COMPANY)
                         </label>
                     </div>
@@ -1249,7 +1249,7 @@ class BLservices extends Controller
                     <div class="col"></div>
                     <div class="col">
                         <label class="form-inline">
-                            <input type="text" class="form-control" name="printed1">
+                            <input type="text" class="form-control owner3" name="printed1">
                             ,(Printed Name)
                         </label>
                     </div>
@@ -1260,7 +1260,7 @@ class BLservices extends Controller
                     <div class="col">
                         <label class="form-inline">
                             its
-                            <input type="text" class="form-control" name="title1">
+                            <input type="text" class="form-control ttl3" name="title1">
                             ,(Title)
                         </label>
                     </div>
@@ -1293,8 +1293,8 @@ class BLservices extends Controller
                         2019
 
                         ,
-                        by <input type="text" class="form-control" name="by1"> and
-                        <input type="text" class="form-control" name="and1">(collectively
+                        by <input type="text" class="form-control gtr11" name="by1"> and
+                        <input type="text" class="form-control gtr21" name="and1">(collectively
                         the “Guarantor”), for the benefit of
                         Samaritus Capital Inc., 4250 Veterans Memorial Highway Suite 303 East Tower, Holbrook, New York 11741
                         (“Buyer”).
@@ -1310,7 +1310,7 @@ class BLservices extends Controller
                     A.
 
                     Pursuant to that Agreement for the Purchase and Sale of Future Receipts (the “Purchase Agreement”), dated of even date herewith, between Buyer and
-                    <input type="text" class="form-control" name="and3">
+                    <input type="text" class="form-control seller4" name="and3">
                     (“Seller”),
                     Buyer
                     has purchased
@@ -1521,7 +1521,7 @@ class BLservices extends Controller
                     <div class="col">
                         <label class="form-inline">
             Guarantor
-                            <input type="text" class="form-control" name="guarantor1">
+                            <input type="text" class="form-control gtr12" name="guarantor1">
                 (Print Name)
                         </label>
                     </div>
@@ -1546,7 +1546,7 @@ class BLservices extends Controller
                     <div class="col">
                         <label class="form-inline">
             Guarantor
-                            <input type="text" class="form-control" name="guarantor2">
+                            <input type="text" class="form-control gtr22" name="guarantor2">
                 (Print Name)
                         </label>
                     </div>
@@ -1564,7 +1564,7 @@ class BLservices extends Controller
                 <h4 class="text-center">FOR AUTOMATED CLEARING HOUSE TRANSACTIONS</h4>
                 <br>
                 <div class="form-row">
-                    <input type="text" class="form-control" name="seller4">
+                    <input type="text" class="form-control seller5" name="seller4">
                 (“Seller”) hereby authorizes Samaritus Capital Inc. (“Buyer”) to present automated clearing house (ACH) debits to the following checking account in the amount of fees and other payments due to Buyer from Seller under the terms of that Agreement for the Purchase and Sale of Future Receipts (the “Agreement”) entered into between Seller and Buyer, as it may be amended, supplemented or replaced from time to time.  Seller also authorizes Buyer to initiate additional entries (debits and credits) to correct any erroneous transfers.  In addition, if an Event of Default (as defined in the Agreement) occurs, Seller authorizes Buyer to debit any and all accounts controlled by Seller or controlled by any entity with the same Federal Tax Identification Number as Seller up to the total amount, including but not limited to, all fees and charges, due to Buyer from Seller under the terms of the Agreement.
                     <br><br>Seller agrees to be bound by the Rules and Operating Guidelines of NACHA and represents and warrants that the designated account is established and used primarily for commercial/business purposes, and not for consumer, family or household purposes.  Seller authorizes Buyer to contact Seller’s financial institution to obtain available funds information and/or to verify any information Seller has provided about the designated checking account and to correct any missing, erroneous or out-of-date information.  Seller understands and agrees that any revocation or attempted revocation of this Authorization will constitute an event of default under the Agreement for the Purchase and Sale of Future Receipts.  In the event that Seller closes the designated checking account, or the designated checking account has insufficient funds for any ACH transaction under this Authorization, Seller authorizes Buyer to contact Seller’s financial institution and obtain information (including account number, routing number and available balance) concerning any other deposit account(s) maintained by Seller with Seller’s financial institution, and to initiate ACH transactions under this Authorization to such additional account(s).  To the extent necessary, Seller grants Buyer a limited Power of Attorney to take action in Seller’s name to facilitate this authorization.
                 </div>
@@ -1607,7 +1607,7 @@ class BLservices extends Controller
                         <div class="form-row">
                             <label class="form-inline">
             Seller\'s Name (Company)
-                                <input type="text" class="form-control" name="seller5">
+                                <input type="text" class="form-control seller6" name="seller5">
                             </label>
                         </div>
                         <div class="form-row">
@@ -1616,19 +1616,19 @@ class BLservices extends Controller
                         <div class="form-row">
                             <label class="form-inline">
                                 Print Name
-                                <input type="text" class="form-control" name="print_name1">
+                                <input type="text" class="form-control owner4" name="print_name1">
                             </label>
                         </div>
                         <div class="form-row">
                             <label class="form-inline">
                                 Title
-                                <input type="text" class="form-control" name="title_2">
+                                <input type="text" class="form-control ttl4" name="title_2">
                             </label>
                         </div>
                         <div class="form-row">
                             <label class="form-inline">
                                 Seller\'s Tax ID
-            <input type="text" class="form-control" name="taxId3">
+            <input type="text" class="form-control tax2" name="taxId3">
                             </label>
                         </div>
                         <div class="form-row">

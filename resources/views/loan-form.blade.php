@@ -130,6 +130,34 @@
             $('.oname4').val($(this).val());
             $('.oname5').val($(this).val());
         });
+        $('body').on('change','.seller1', function(e){
+            e.preventDefault();
+            $('.seller2').val($(this).val());
+            $('.seller3').val($(this).val());
+            $('.seller4').val($(this).val());
+            $('.seller5').val($(this).val());
+            $('.seller6').val($(this).val());
+        });
+        $('body').on('change','.owner1', function(e){
+            e.preventDefault();
+            $('.owner2').val($(this).val());
+            $('.owner3').val($(this).val());
+            $('.owner4').val($(this).val());
+        });
+        $('body').on('change','.ttl1', function(e){
+            e.preventDefault();
+            $('.ttl2').val($(this).val());
+            $('.ttl3').val($(this).val());
+            $('.ttl4').val($(this).val());
+        });
+        $('body').on('change','.gtr11', function(e){
+            e.preventDefault();
+            $('.gtr12').val($(this).val());
+        });
+        $('body').on('change','.gtr21', function(e){
+            e.preventDefault();
+            $('.gtr22').val($(this).val());
+        });
         $('#prev').on('click', function(e){
             e.preventDefault();
             var url = "{{ url('/services/pdf-forms/preview') }}";
