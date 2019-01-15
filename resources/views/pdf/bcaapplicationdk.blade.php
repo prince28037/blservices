@@ -32,20 +32,22 @@
 		
 		 .chk2 {
             position: absolute;
-            top: 48%;
-            left: 10%;
+            top: 48.15%;
+            left: 10.2%;
         }
 		
+
+
+
 		.legal-name {
 			position: absolute;
-            top: 20.2%;
+            top: 20.6%;
             left: 18%;
-			
 		}
 		
 		.dba-name {
 			position: absolute;
-            top: 20.2%;
+            top: 20.6%;
             left: 57%;
 			
 		}
@@ -53,168 +55,155 @@
 		
 		.chk-corp {
 			position: absolute;
-            top: 23.8%;
+            top: 23.9%;
             left: 20.5%;
 			
 		}
 		.chk-llc {
 			position: absolute;
-            top: 23.8%;
+            top: 23.9%;
             left: 25.5%;
 			
 		}
 		.chk-solep {
 			position: absolute;
-            top: 23.8%;
+            top: 23.9%;
             left: 38.2%;
 			
 		}
 		.chk-part {
 			position: absolute;
-            top: 23.8%;
+            top: 23.9%;
             left: 47.5%;
 			
 		}
 		
 		.tax-id {
 			position: absolute;
-            top: 23.5%;
+            top: 23.85%;
             left: 58.5%;
 			
 		}
 		
 		.bis-date {
 			position: absolute;
-            top: 23.5%;
+            top: 23.85%;
             left: 81.5%;
 			
 		}
 		
 		.bis-phone {
 			position: absolute;
-            top: 26.8%;
-            left: 15%;
+            top: 27.15%;
+            left: 15.2%;
 			
 		}
 		.fax {
 			position: absolute;
-            top: 26.8%;
+            top: 27.15%;
             left: 38%;
 			
 		}
 		.website {
 			position: absolute;
-            top: 26.7%;
+            top: 27.05%;
             left: 60%;
 			
 		}
 		
 		.phy-addr {
 			position: absolute;
-            top: 29.3%;
+            top: 29.6%;
             left: 16%;
 			
 		}
 		.city {
 			position: absolute;
-            top: 29.3%;
+            top: 29.6%;
             left: 53%;
 			
 		}
 		.state {
 			position: absolute;
-            top: 29.3%;
-            left: 80.3%;
+            top: 29.6%;
+            left: 80.4%;
 			
 		}
 		.zip {
 			position: absolute;
-            top: 29.3%;
+            top: 29.6%;
             left: 88.3%;
-			
 		}
 		
 		.mail-addr {
 			position: absolute;
-            top: 31.5%;
+            top: 31.8%;
             left: 16%;
 			
 		}
 		.city2 {
 			position: absolute;
-            top: 31.5%;
+            top: 31.8%;
             left: 53%;
 			
 		}
 		.state2 {
 			position: absolute;
-            top: 31.5%;
-            left: 80.3%;
+            top: 31.8%;
+            left: 80.4%;
 			
 		}
 		.zip2 {
 			position: absolute;
-            top: 31.5%;
+            top: 31.8%;
             left: 88.3%;
 			
 		}
 		
+
+
 		.owner-name {
 			position: absolute;
-            top: 35.8%;
+            top: 36.2%;
             left: 10.5%;
-			
 		}
-		
 		.chk-rent {
 			position: absolute;
-            top: 35.85%;
+            top: 36.2%;
             left: 68.5%;
 			
 		}
 		.chk-own {
 			position: absolute;
-            top: 35.85%;
+            top: 36.2%;
             left: 76.8%;
 			
 		}
 		
-		.industry-type {
-			position: absolute;
-            top: 45.8%;
-            left: 68.5%;
-			
-		}
 		
-		.sqft-office {
-			position: absolute;
-            top: 34.8%;
-            left: 76.8%;
-			
-		}
-		
+
 		.owner-addr{
 			position: absolute;
-            top: 38.2%;
+            top: 38.4%;
             left: 15%;
 			
 		}
 		
 		.city-owner {
 			position: absolute;
-            top: 38.2%;
+            top: 38.4%;
             left: 53%;
 			
 		}
 		.state-owner {
 			position: absolute;
-            top: 38.2%;
-            left: 80.3%;
+            top: 38.4%;
+            left: 80.4%;
 			
 		}
 		.zip-owner {
 			position: absolute;
-            top: 38.2%;
+            top: 38.4%;
             left: 88.3%;
 			
 		}
@@ -222,101 +211,101 @@
 		
 		.owner-email {
 			position: absolute;
-            top: 40.3%;
+            top: 40.7%;
             left: 10%;
 			
 		}
 		.owner-mobile {
 			position: absolute;
-            top: 40.3%;
-            left: 54.6%;
+            top: 40.7%;
+            left: 54.7%;
 			
 		}
 		
 		.owner-dob {
 			position: absolute;
-            top: 42.5%;
+            top: 42.9%;
             left: 14%;
 			
 		}
 		.owner-ssn {
 			position: absolute;
-            top: 42.5%;
-            left: 59.3%;
+            top: 42.9%;
+            left: 59.6%;
 			
 		}
 		.industry-type {
 			position: absolute;
-            top: 46.9%;
+            top: 47.2%;
             left: 14.4%;
 			
 		}
 		.sqft-office {
 			position: absolute;
-            top: 46.9%;
+            top: 47.2%;
             left: 61.8%;
 			
 		}
 		
 		.rented-own {
 			position: absolute;
-            top: 49.2%;
+            top: 49.5%;
             left: 16.2%;
 			
 		}
 		
 		.rentmor-amount {
 			position: absolute;
-            top: 49.2%;
+            top: 49.5%;
             left: 64%;
 			
 		}
 		
-		
 		.landmor-info {
 			position: absolute;
-            top: 51.4%;
+            top: 51.8%;
             left: 29.7%;
-			
 		}
+		
+
 		.annual-sales {
 			position: absolute;
-            top: 55.75%;
-            left: 16.7%;
+            top: 56%;
+            left: 16.9%;
 			
 		}
 		
 		.requested-amount {
 			position: absolute;
-            top: 55.75%;
+            top: 56%;
             left: 71%;
 			
 		}
 		
 		.monthly-cc {
 			position: absolute;
-            top: 58%;
+            top: 58.3%;
             left: 25.1%;
 			
 		}
 		
 		.loan-purpose {
 			position: absolute;
-            top: 58%;
+            top: 58.3%;
             left: 62.5%;
 			
 		}
 		
 		.out-balance {
 			position: absolute;
-            top: 60.3%;
+            top: 60.6%;
             left: 56%;
 			
 		}
 		
 		.sign-auth {
 			position: absolute;
-            top: 76.3%;
+            top: 76.6%;
             left: 18%;
 			
 		}
@@ -324,13 +313,13 @@
 		
 		.print-name {
 			position: absolute;
-            top: 79.3%;
+            top: 79.6%;
             left: 18%;
 			
 		}
 		.date-auth {
 			position: absolute;
-            top: 82%;
+            top: 82.3%;
             left: 18%;
 			
 		}

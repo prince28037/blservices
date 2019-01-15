@@ -24,13 +24,13 @@
 
  		 .seller-name {
             position: absolute;
-            top: 6.4%;
+            top: 6.55%;
             left: 20%;
         }
 
           .seller-dba {
             position: absolute;
-            top: 6.25%;
+            top: 6.30%;
             left: 59%;
         }
 
@@ -82,19 +82,19 @@
 
  .str-addr {
             position: absolute;
-            top: 15.45%;
+            top: 15.5%;
             left: 16.5%;
         }
 
  .city1 {
             position: absolute;
-            top: 15.45%;
+            top: 15.5%;
             left: 50.9%;
         }
 
  .state1 {
             position: absolute;
-            top: 15.45%;
+            top: 15.5%;
             left: 75.2%;
         }
 
@@ -215,7 +215,7 @@
  
  		.ini-amount {
             position: absolute;
-            top: 35%;
+            top: 35.1%;
             left: 21.3%;
         }
 
@@ -349,19 +349,18 @@
 
 		.seller9-name {
             position: absolute;
-            top: 42.4%;
+            top: 42.45%;
             left: 44.5%;
         }
 
-
 		.pri9-name {
             position: absolute;
-            top: 51.5%;
+            top: 51.55%;
             left: 44.5%;
         }
         .title9 {
             position: absolute;
-            top: 55.5%;
+            top: 55.55%;
             left: 44.5%;
         }
 
@@ -372,7 +371,7 @@
         }
         .ow9 {
             position: absolute;
-            top: 93%;
+            top: 93.1%;
             left: 87%;
         }
 
@@ -385,12 +384,12 @@
         }
 		.pri10-name {
             position: absolute;
-            top: 15.7%;
+            top: 15.75%;
             left: 8%;
         }
         .guarantor-name {
             position: absolute;
-            top: 15.7%;
+            top: 15.75%;
             left: 35%;
         }
          .seller10-name {
@@ -434,12 +433,12 @@
         }
 		.guarantor12 {
             position: absolute;
-            top: 79%;
+            top: 79.15%;
             left: 54.9%;
         }
         .guarantor122 {
             position: absolute;
-            top: 83.4%;
+            top: 83.5%;
             left: 54.9%;
         }
 
@@ -457,13 +456,13 @@
 
 		.seller13-name {
             position: absolute;
-            top: 11.5%;
+            top: 11.55%;
             left: 7%;
         }
 
         .exact-name {
             position: absolute;
-            top: 44%;
+            top: 44.1%;
             left: 47.5%;
         }
 
@@ -485,22 +484,22 @@
         }
 		.seller132-name {
             position: absolute;
-            top: 62.7%;
+            top: 62.75%;
             left: 47.5%;
         }
 		.pri13-name {
             position: absolute;
-            top: 68.1%;
+            top: 68.15%;
             left: 47.5%;
         }
 		.title13 {
             position: absolute;
-            top: 71%;
+            top: 71.05%;
             left: 47.5%;
         }
 		.taxid {
             position: absolute;
-            top: 74.1%;
+            top: 74.15%;
             left: 47.5%;
         }
 		.date13 {

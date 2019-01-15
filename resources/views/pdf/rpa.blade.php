@@ -351,13 +351,13 @@
 
 		.tot-fund {
             position: absolute;
-            top: 34.5%;
+            top: 34.45%;
             left: 24.4%;
         }
 
         .website {
             position: absolute;
-            top: 34.5%;
+            top: 34.45%;
             left: 51.7%;
         }
 
@@ -370,25 +370,25 @@
 
         .pdob {
             position: absolute;
-            top: 39.9%;
+            top: 39.85%;
             left: 49.8%;
         }
 
  		.pcell {
             position: absolute;
-            top: 42.5%;
+            top: 42.55%;
             left: 9%;
         }
 
         .pssn {
             position: absolute;
-            top: 42.5%;
+            top: 42.55%;
             left: 49.6%;
         }
 
  		.paddr {
             position: absolute;
-            top: 45.1%;
+            top: 45.35%;
             left: 14.5%;
         }
 		
@@ -425,29 +425,31 @@
             left: 69.7%;
         }
 
+
+
 		.iname {
             position: absolute;
-            top: 56.2%;
+            top: 56.25%;
             left: 15.2%;
         }
         .icontact {
             position: absolute;
-            top: 58.9%;
+            top: 58.95%;
             left: 11%;
         }
         .iphone {
             position: absolute;
-            top: 58.9%;
+            top: 58.95%;
             left: 33%;
         }
         .iemail {
             position: absolute;
-            top: 58.9%;
+            top: 58.95%;
             left: 50.1%;
         }
         .icname {
             position: absolute;
-            top: 61.7%;
+            top: 61.75%;
             left: 15.4%;
         }
 
@@ -469,25 +471,25 @@
         }
         .past {
             position: absolute;
-            top: 67.1%;
+            top: 67.15%;
             left: 35%;
         }
 
 		.why {
             position: absolute;
-            top: 67.1%;
+            top: 67.15%;
             left: 58%;
         }
 
 		.hear {
             position: absolute;
-            top: 69.8%;
+            top: 69.85%;
             left: 31%;
         }
 
 		.idate {
             position: absolute;
-            top: 88.2%;
+            top: 88.25%;
             left: 50%;
         }
 

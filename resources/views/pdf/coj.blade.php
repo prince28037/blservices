@@ -23,23 +23,23 @@
 		
  		.county {
             position: absolute;
-            top: 10.2%;
+            top: 10.4%;
             left: 18%;
         }
   		.company-name {
             position: absolute;
-            top: 12.6%;
+            top: 12.7%;
             left: 8%;
         }
   		.index {
             position: absolute;
-            top: 13.1%;
+            top: 13.25%;
             left: 67.5%;
         }
 		
 		.company-name2 {
             position: absolute;
-            top: 23.1%;
+            top: 23.3%;
             left: 8.4%;
         }
 
@@ -51,54 +51,54 @@
 
         .state-name {
             position: absolute;
-            top: 32.1%;
+            top: 32.3%;
             left: 16.5%;
         }
 
 		.county-of {
             position: absolute;
-            top: 35.4%;
+            top: 35.6%;
             left: 18.2%;
         }
 		.owner-name2 {
             position: absolute;
-            top: 38.9%;
+            top: 39.1%;
             left: 8.5%;
         }
 
 		.company-name3 {
             position: absolute;
-            top: 42%;
+            top: 42.2%;
             left: 55.5%;
         }
 
         .company-addr {
             position: absolute;
-            top: 43.4%;
+            top: 43.8%;
             left: 32.2%;
         }
 
          .company-county {
             position: absolute;
-            top: 48%;
+            top: 48.2%;
             left: 19.5%;
         }
 
 		.owner-addr {
             position: absolute;
-            top: 54.4%;
-            left: 35.5%;
+            top: 54.5%;
+            left: 35.55%;
         }
 
         .owner-county {
             position: absolute;
-            top: 57.4%;
+            top: 57.6%;
             left: 20.8%;
         }
 		
 		.sum1 {
             position: absolute;
-            top: 88%;
+            top: 88.3%;
             left: 32%;
         }
 
@@ -107,24 +107,24 @@
 
         .date1 {
             position: absolute;
-            top: 8.8%;
-            left: 71%;
+            top: 9%;
+            left: 70.2%;
         }
 
         .date2 {
             position: absolute;
-            top: 14.9%;
-            left: 62%;
+            top: 15.1%;
+            left: 61.9%;
         }
          .sum2 {
             position: absolute;
-            top: 49.1%;
-            left: 38%;
+            top: 49.2%;
+            left: 37.9%;
         }
          .date3 {
             position: absolute;
-            top: 58.2%;
-            left: 9%;
+            top: 58.3%;
+            left: 8.9%;
         }
          .date4 {
             position: absolute;
@@ -136,35 +136,35 @@
 
  		.date5 {
             position: absolute;
-            top: 8.9%;
+            top: 9.1%;
             left: 9%;
         }
         .company-name4 {
             position: absolute;
-            top: 35.5%;
+            top: 35.65%;
             left: 37.2%;
         }
 
         .title {
             position: absolute;
-            top: 35.5%;
+            top: 35.7%;
             left: 74%;
         }
 
 		.owner-name3 {
             position: absolute;
-            top:42.3%;
+            top:42.5%;
             left: 22.3%;
         }
 
 		.owner-name4 {
             position: absolute;
-            top: 61.5%;
+            top: 61.6%;
             left: 37.5%;
         }
         .owner-name5 {
             position: absolute;
-            top: 66.2%;
+            top: 66.3%;
             left: 22.3%;
         }
 
