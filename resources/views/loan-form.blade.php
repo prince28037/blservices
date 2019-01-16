@@ -18,7 +18,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+<nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color:#243978">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('public/pdf/logo.jpg') }}" alt="" style="max-height: 50px;">
