@@ -1288,13 +1288,11 @@ class BLservices extends Controller
                 <h4 class="text-center">PERSONAL GUARANTY OF PERFORMANCE</h4>
                 <div class="form-row">
                     <label class="form-inline">
-                        This Personal Guaranty of Performance (this “Guaranty”) is executed as of
-                        <input type="text" class="form-control" name="as_of1">
-                        2019
+                        This Personal Guaranty of Performance (this “Guaranty”) is executed as of  <input type="text" class="form-control" name="as_of1">  2019
 
                         ,
-                        by <input type="text" class="form-control gtr11" name="by1"> and
-                        <input type="text" class="form-control gtr21" name="and1">(collectively
+                        by <input type="text" class="form-control gtr11" name="by1" placeholder="Guarantor 1"> and
+                        <input type="text" class="form-control gtr21" name="and1" placeholder="Guarantor 2">(collectively
                         the “Guarantor”), for the benefit of
                         Samaritus Capital Inc., 4250 Veterans Memorial Highway Suite 303 East Tower, Holbrook, New York 11741
                         (“Buyer”).
@@ -1521,7 +1519,7 @@ class BLservices extends Controller
                     <div class="col">
                         <label class="form-inline">
             Guarantor
-                            <input type="text" class="form-control gtr12" name="guarantor1">
+                            <input type="text" class="form-control gtr12" name="guarantor1" placeholder="Guarantor 1">
                 (Print Name)
                         </label>
                     </div>
@@ -1546,7 +1544,7 @@ class BLservices extends Controller
                     <div class="col">
                         <label class="form-inline">
             Guarantor
-                            <input type="text" class="form-control gtr22" name="guarantor2">
+                            <input type="text" class="form-control gtr22" name="guarantor2" placeholder="Guarantor 2">
                 (Print Name)
                         </label>
                     </div>

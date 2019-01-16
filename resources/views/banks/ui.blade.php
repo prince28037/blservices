@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Banks Repository</title>
+    <title>Banks Repository- Samaritus Capital</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,8 +41,9 @@
             <div class="col-sm-5 col-xs-8 col-sm-offset-3 col-xs-offset-0">
                 <div class="float-right clearfix">
                     <div class="user-nameno">
-                        <h3 class="span">Jhon Doe</h3>
+                        <h3 class="span">Joe Ialacci</h3>
                     </div>
+
                     <div class="user-icon">
                         <img src="{{ asset('public/banks/img/user-icon.png') }}" alt="user-icon">
                     </div>

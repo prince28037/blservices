@@ -20,7 +20,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color:#243978">
     <div class="container">
-<a class="navbar-brand" href="#">Contract Generator</a>
+<a class="navbar-brand" href="#">Contract Generator- Samaritus Capital</a>
         
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
@@ -56,12 +56,13 @@
                         <option>Select one...</option>
                         <option value="1">Business Cash Advance Application</option>
                         <option value="2">Samaritus Capital Application Approval</option>
-                        <option value="3">Confession of Judgement</option>
+                        <option value="3">Confession of Judgement- COJ</option>
                         <option value="4">Referral Partner Agreement</option>
-                        <option value="5">Agreement For The Purchase & Sale Of Future Receipts</option>
+                        <option value="5">Agreement For The Purchase & Sale of Future Receipts</option>
                     </select>
                 </div>
                 <div id="form-content"></div>
+
             </form>
         </div>
     </div>
@@ -176,6 +177,9 @@
         });
     });
 </script>
+
+
+
 </body>
 
 </html>
