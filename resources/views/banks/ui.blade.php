@@ -6,6 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{{ asset('public/pdf/fav.jpg') }}" type="image/jpg" sizes="16x16">
 
     <!-- stylesheet css -->
     <link rel="stylesheet" href="{{ asset('public/banks/css/fontawesome-all.min.css') }}">
@@ -41,7 +42,7 @@
             <div class="col-sm-5 col-xs-8 col-sm-offset-3 col-xs-offset-0">
                 <div class="float-right clearfix">
                     <div class="user-nameno">
-                        <h3 class="span">Joe Ialacci</h3>
+                        <h3 class="span">Samaritus Capital</h3>
                     </div>
 
                     <div class="user-icon">
@@ -49,8 +50,8 @@
                     </div>
                     <div class="user-dropdown">
                         <ul>
-                            <li><a href="change-password.html" class="name">Change Password</a></li>
-                            <li><a href="#" class="logout">Log Out</a></li>
+                            <li><a href="{{ url('/services/pdf-forms') }}" class="name">Contract Generator</a></li>
+                            <li><a href="{{ url('/services/mca') }}" class="logout">MCA Calculator</a></li>
                         </ul>
                     </div>
                 </div>
