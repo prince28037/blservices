@@ -9,16 +9,36 @@
     <meta name="author" content="">
 
     <title>Samaritus Capital- PDF Generator</title>
+    <link rel="icon" href="{{ asset('public/pdf/fav.jpg') }}" type="image/jpg" sizes="16x16">
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('public/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Calibri';
+            src: '{{ base_path() }}/public/fonts/calibri.ttf';
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: "Calibri", sans-serif;
+        }
+        nav {
+            color: #193e78;
+            background-color: #FFFFFF;
+        }
+        nav a {
+            color: #193e78;
+            font-size: 18px;
+        }
+    </style>
 
 </head>
 
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color:#243978">
+<nav class="navbar navbar-expand-lg static-top shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('public/pdf/logo.jpg') }}" alt="" style="max-height: 50px;">
@@ -34,13 +54,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{{ url('/services/pdf-forms') }}">Contract Generator</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="{{ url('/services/mca') }}">MCA Calculator</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="{{ url('/services/banks') }}">Banks List</a>
                 </li>
             </ul>
         </div>
